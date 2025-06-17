@@ -3,4 +3,6 @@ uvicorn
 langchain
 langchain-community
 ollama
+langchain-ollama
 duckduckgo_search
+python-dotenv

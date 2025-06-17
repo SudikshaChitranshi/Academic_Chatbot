@@ -1,20 +1,17 @@
-import json
+import os
 from datetime import datetime
 
-def log_chat(user_id, message, reply, intent):
-    log = {
-        "user_id": user_id,
-        "timestamp": str(datetime.now()),
-        "message": message,
-        "reply": reply,
-        "intent": intent
-    }
-    try:
-        with open("app/chat_logs.json", "r+") as f:
-            data = json.load(f)
-            data.append(log)
-            f.seek(0)
-            json.dump(data, f, indent=2)
-    except FileNotFoundError:
-        with open("app/chat_logs.json", "w") as f:
-            json.dump([log], f, indent=2)
+LOG_FILE = os.path.join(os.path.dirname(__file__), "logs", "chat_logs.txt")
+
+os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+
+def log_response(user_message: str, response: str, source: str = "LLM"):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = (
+        f"[{timestamp}] [SOURCE: {source}]\n"
+        f"User: {user_message}\n"
+        f"Bot: {response}\n\n"
+    )
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(log_entry)
+

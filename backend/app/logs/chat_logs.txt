@@ -1,0 +1,570 @@
+[2025-06-16 15:46:32] [SOURCE: Web Tool]
+User: Tell me what is the email id of Dr. Kashav Ajmera?
+Bot: - ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+
+[2025-06-16 15:46:32] [SOURCE: Web Tool]
+User: Tell me what is the email id of Dr. Kashav Ajmera?
+Bot: - ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+
+[2025-06-16 15:46:32] [SOURCE: API]
+User: Tell me what is the email id of Dr. Kashav Ajmera?
+Bot: {'reply': '- \u202aKashav Ajmera, Ph.D.\u202c - \u202aGoogle Scholar\u202c: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en\n- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera', 'intent': 'faculty_info'}
+
+[2025-06-16 15:47:42] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 15:47:42] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 15:47:42] [SOURCE: API]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: {'reply': '- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera\n- \u202aKashav Ajmera, Ph.D.\u202c - \u202aGoogle Scholar\u202c: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en', 'intent': 'faculty_info'}
+
+[2025-06-16 15:57:36] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 15:57:36] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 15:57:36] [SOURCE: API]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: reply
+
+[2025-06-16 16:01:52] [SOURCE: Web Tool]
+User:  What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 16:01:52] [SOURCE: Web Tool]
+User:  What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 16:01:52] [SOURCE: API]
+User:  What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 16:09:13] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 16:09:13] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 16:09:13] [SOURCE: API]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- ‪Kashav Ajmera, Ph.D.‬ - ‪Google Scholar‬: https://scholar.google.com/citations?user=bJm4wTQAAAAJ&hl=en
+
+[2025-06-16 16:13:34] [SOURCE: LLM]
+User: What is the procedure for admission in JIIT?
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:13:34] [SOURCE: API]
+User: What is the procedure for admission in JIIT?
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:22:13] [SOURCE: Web Tool]
+User: What is the email id of Dr. Pawan Upadhayay?
+Bot: - Dr. Pawan Upadhyay - ACTREC: https://actrec.gov.in/node/1930
+- Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+
+[2025-06-16 16:22:13] [SOURCE: Web Tool]
+User: What is the email id of Dr. Pawan Upadhayay?
+Bot: - Dr. Pawan Upadhyay - ACTREC: https://actrec.gov.in/node/1930
+- Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+
+[2025-06-16 16:22:13] [SOURCE: API]
+User: What is the email id of Dr. Pawan Upadhayay?
+Bot: - Dr. Pawan Upadhyay - ACTREC: https://actrec.gov.in/node/1930
+- Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+
+[2025-06-16 16:35:19] [SOURCE: Web Tool]
+User: What is the email id of Dr. Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+- Computer Science and IT Faculty - JIIT: https://www.jiit.ac.in/computer-science-and-it-faculty
+
+[2025-06-16 16:35:19] [SOURCE: Web Tool]
+User: What is the email id of Dr. Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+- Computer Science and IT Faculty - JIIT: https://www.jiit.ac.in/computer-science-and-it-faculty
+
+[2025-06-16 16:35:19] [SOURCE: API]
+User: What is the email id of Dr. Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+- Computer Science and IT Faculty - JIIT: https://www.jiit.ac.in/computer-science-and-it-faculty
+
+[2025-06-16 16:39:53] [SOURCE: LLM]
+User: Tell me some resources to study Operating Systems
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:39:53] [SOURCE: API]
+User: Tell me some resources to study Operating Systems
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:42:15] [SOURCE: LLM]
+User: Tell me some resources to study Operating Systems
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:42:15] [SOURCE: API]
+User: Tell me some resources to study Operating Systems
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:44:13] [SOURCE: LLM]
+User: Tell me some resources to study Operating Systems 
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:44:13] [SOURCE: API]
+User: Tell me some resources to study Operating Systems 
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:48:33] [SOURCE: API]
+User:  Tell me some resources to study Operating Systems
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-16 16:51:35] [SOURCE: LLM]
+User: Tell me some resources to study Operating systems
+Bot: For studying Operating Systems at Jaypee Institute of Information Technology (JIIT), here are some valuable resources:
+
+1. **Online Courses**:
+   - Coursera's "Operating System Concepts" by University of Virginia
+   - edX's "Computer Systems" by MIT 6.824, covering Operating Systems concepts
+
+2. **Textbooks and Books**:
+   - "Operating System Concepts" by Abraham Silberschatz, Peter Baer Galvin and Greg Gagne
+   - "The Art of Operating System Design" by Maurice J. Bach
+
+3. **Video Resources**:
+   - YouTube channels like 3Blue1Brown ( animations explaining OS concepts), Techopedia, and GeeksforGeeks' Operating Systems playlist
+   - Instructables tutorials and Crash Course Computer Science videos on YouTube.
+
+4. **Practice Problems and Projects**:
+   - HackerRank's Operating System problems for coding practice
+   - Write a simulated OS kernel or create your own OS simulator
+
+5. **Online Forums and Communities**:
+   - Reddit’s r/learnprogramming, r/compsci, and Stack Overflow can be helpful for discussing OS concepts and getting help with projects.
+
+6. **JIIT Resources**:
+   - Check the JIIT student portal or IT department website for any study materials, course guides, or exam schedules related to Operating Systems courses.
+
+Remember to keep up-to-date with the latest developments in the field by regularly checking academic updates from your department and attending relevant workshops, seminars, or guest lectures.
+
+[2025-06-16 16:51:35] [SOURCE: API]
+User: Tell me some resources to study Operating systems
+Bot: For studying Operating Systems at Jaypee Institute of Information Technology (JIIT), here are some valuable resources:
+
+1. **Online Courses**:
+   - Coursera's "Operating System Concepts" by University of Virginia
+   - edX's "Computer Systems" by MIT 6.824, covering Operating Systems concepts
+
+2. **Textbooks and Books**:
+   - "Operating System Concepts" by Abraham Silberschatz, Peter Baer Galvin and Greg Gagne
+   - "The Art of Operating System Design" by Maurice J. Bach
+
+3. **Video Resources**:
+   - YouTube channels like 3Blue1Brown ( animations explaining OS concepts), Techopedia, and GeeksforGeeks' Operating Systems playlist
+   - Instructables tutorials and Crash Course Computer Science videos on YouTube.
+
+4. **Practice Problems and Projects**:
+   - HackerRank's Operating System problems for coding practice
+   - Write a simulated OS kernel or create your own OS simulator
+
+5. **Online Forums and Communities**:
+   - Reddit’s r/learnprogramming, r/compsci, and Stack Overflow can be helpful for discussing OS concepts and getting help with projects.
+
+6. **JIIT Resources**:
+   - Check the JIIT student portal or IT department website for any study materials, course guides, or exam schedules related to Operating Systems courses.
+
+Remember to keep up-to-date with the latest developments in the field by regularly checking academic updates from your department and attending relevant workshops, seminars, or guest lectures.
+
+[2025-06-16 17:49:04] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- XLSX: https://www.jiit.ac.in/sites/default/files/10.+Faculty+Abbreviations_Even+2025.xlsx
+
+[2025-06-16 17:49:04] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- XLSX: https://www.jiit.ac.in/sites/default/files/10.+Faculty+Abbreviations_Even+2025.xlsx
+
+[2025-06-16 17:49:04] [SOURCE: API]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: - Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- XLSX: https://www.jiit.ac.in/sites/default/files/10.+Faculty+Abbreviations_Even+2025.xlsx
+
+[2025-06-16 17:58:09] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- XLSX: https://www.jiit.ac.in/sites/default/files/10.+Faculty+Abbreviations_Even+2025.xlsx
+
+[2025-06-16 17:58:09] [SOURCE: Web Tool]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- XLSX: https://www.jiit.ac.in/sites/default/files/10.+Faculty+Abbreviations_Even+2025.xlsx
+
+[2025-06-16 17:58:09] [SOURCE: API]
+User: What is the email id of Dr. Kashav Ajmera?
+Bot: 🔁 (Cached)
+- Dr. Kashav Ajmera - Assistant Professor (Senior Grade) in JIIT: https://www.jiit.ac.in/dr-kashav-ajmera
+- XLSX: https://www.jiit.ac.in/sites/default/files/10.+Faculty+Abbreviations_Even+2025.xlsx
+
+[2025-06-16 18:59:10] [SOURCE: LLM]
+User: What is my attendance in the subject Econometric Analysis?
+Bot: To check your attendance in the subject Econometric Analysis, I recommend logging into your student portal. You can do this by following these steps:
+
+1. Go to the JIIT intranet website ([www.jiit.ac.in](http://www.jiit.ac.in)) and click on the "Student Portal" tab.
+2. Enter your username and password to log in.
+3. Once logged in, navigate to the "Academic" section.
+4. Look for the attendance record of your Econometric Analysis subject.
+
+If you're having trouble accessing your student portal or need assistance with logging in, I suggest reaching out to the JIIT IT department or visiting their support center.
+
+Please note that if you can't find your attendance record online, it's also possible that the information hasn't been updated yet. You can try checking the college noticeboard or contacting your instructor for more information.
+
+Would you like me to look up any other JIIT-related information?
+
+[2025-06-16 18:59:10] [SOURCE: API]
+User: What is my attendance in the subject Econometric Analysis?
+Bot: To check your attendance in the subject Econometric Analysis, I recommend logging into your student portal. You can do this by following these steps:
+
+1. Go to the JIIT intranet website ([www.jiit.ac.in](http://www.jiit.ac.in)) and click on the "Student Portal" tab.
+2. Enter your username and password to log in.
+3. Once logged in, navigate to the "Academic" section.
+4. Look for the attendance record of your Econometric Analysis subject.
+
+If you're having trouble accessing your student portal or need assistance with logging in, I suggest reaching out to the JIIT IT department or visiting their support center.
+
+Please note that if you can't find your attendance record online, it's also possible that the information hasn't been updated yet. You can try checking the college noticeboard or contacting your instructor for more information.
+
+Would you like me to look up any other JIIT-related information?
+
+[2025-06-17 10:20:18] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: 'dict' object has no attribute 'subjects'
+
+[2025-06-17 10:27:05] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: 'dict' object has no attribute 'subjects'
+
+[2025-06-17 10:27:05] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 10:38:26] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: 'dict' object has no attribute 'subjects'
+
+[2025-06-17 10:38:26] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 10:46:41] [SOURCE: PyJIIT Error]
+User:  What is my attendance in Econometric Analysis?
+Bot: 'subjects'
+
+[2025-06-17 10:46:41] [SOURCE: API]
+User:  What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 10:52:23] [SOURCE: PyJIIT Error]
+User:  What is my attendance in Econometric Analysis?
+Bot: 'dict' object has no attribute 'subjects'
+
+[2025-06-17 10:52:23] [SOURCE: API]
+User:  What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 10:58:27] [SOURCE: PyJIIT Error]
+User:   What is my attendance in Econometric Analysis?
+Bot: 'subjects'
+
+[2025-06-17 10:58:27] [SOURCE: API]
+User:   What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 11:04:04] [SOURCE: PyJIIT]
+User:    What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found.
+
+[2025-06-17 11:04:04] [SOURCE: API]
+User:    What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found.
+
+[2025-06-17 11:14:22] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 11:14:22] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 11:18:31] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 11:18:31] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 11:35:56] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: 📊 Your attendance:
+**DATABASE SYSTEMS AND WEB(15B11CI312)**: 85.2% (34.0/41.0)
+**DATABASE SYSTEMS AND WEB LAB(15B17CI372)**: 76.5% (13.0/17.0)
+**ECONOMICS(15B11HS211)**: 95.3% (26.0/28.0)
+**ELECTRICAL SCIENCE-2(15B11EC211)**: 80.0% (32.0/42.0)
+**THEORETICAL FOUNDATIONS OF COMPUTER SCIENCE(15B11CI212)**: 82.5% (34.0/46.0)
+**ELECTRICAL SCIENCE LAB -2(15B17EC271)**: 92.3% (12.0/13.0)
+**DATA STRUCTURES AND ALGORITHMS(18B11CS211)**: 92.3% (38.0/42.0)
+**DATA STRUCTURES AND ALGORITHMS LAB(18B15CS211)**: 87.5% (21.0/24.0)
+**Professional Communication Practice(22B15HS211)**: 88.9% (8.0/9.0)
+
+[2025-06-17 11:35:56] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 📊 Your attendance:
+**DATABASE SYSTEMS AND WEB(15B11CI312)**: 85.2% (34.0/41.0)
+**DATABASE SYSTEMS AND WEB LAB(15B17CI372)**: 76.5% (13.0/17.0)
+**ECONOMICS(15B11HS211)**: 95.3% (26.0/28.0)
+**ELECTRICAL SCIENCE-2(15B11EC211)**: 80.0% (32.0/42.0)
+**THEORETICAL FOUNDATIONS OF COMPUTER SCIENCE(15B11CI212)**: 82.5% (34.0/46.0)
+**ELECTRICAL SCIENCE LAB -2(15B17EC271)**: 92.3% (12.0/13.0)
+**DATA STRUCTURES AND ALGORITHMS(18B11CS211)**: 92.3% (38.0/42.0)
+**DATA STRUCTURES AND ALGORITHMS LAB(18B15CS211)**: 87.5% (21.0/24.0)
+**Professional Communication Practice(22B15HS211)**: 88.9% (8.0/9.0)
+
+[2025-06-17 11:56:41] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: Webportal.get_attendance_meta() takes 1 positional argument but 2 were given
+
+[2025-06-17 11:56:41] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 11:58:12] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: 'AttendanceMeta' object has no attribute 'stynumber'
+
+[2025-06-17 11:58:12] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 12:00:29] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: Webportal.get_attendance_meta() takes 1 positional argument but 2 were given
+
+[2025-06-17 12:00:29] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 12:16:54] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: 'AttendanceMeta' object has no attribute 'stynumber'
+
+[2025-06-17 12:16:54] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 12:19:53] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: Webportal.get_attendance() missing 1 required positional argument: 'header'
+
+[2025-06-17 12:19:53] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 12:36:17] [SOURCE: PyJIIT Error]
+User: What is my attendance in Econometric Analysis?
+Bot: 'AttendanceMeta' object has no attribute 'branchdesc'
+
+[2025-06-17 12:36:17] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: There was an issue fetching your data from the JIIT portal.
+
+[2025-06-17 12:44:06] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: 📊 Your attendance:
+**CLOUD BASED ENTERPRISE SYSTEMS(15B22CI521)**: 100.0% (40.0/36.0)
+**CLOUD BASED ENTERPRISE SYSTEMS LAB(15B28CI581)**: 84.6% (11.0/13.0)
+**DATA MINING AND WEB ALGORITHMS(15B22CI621)**: 90.4% (35.0/40.0)
+**DATA MINING AND WEB ALGORITHMS LAB(15B28CI681)**: 91.7% (11.0/12.0)
+**MINOR PROJECT-2(15B29CI691)**: N/A% (0/0)
+**ECONOMETRIC ANALYSIS(19B12HS611)**: 85.0% (24.0/28.0)
+**APPLICATIONAL ASPECTS OF DIFFERENTIAL EQUATIONS(20B12MA311)**: 80.5% (33.0/41.0)
+**Sensor Technology & Android Programming(21B12CS312)**: 89.7% (35.0/39.0)
+**Fundamentals of Distributed and Cloud Computing(21B12CS313)**: 100.0% (37.0/35.0)
+**Scientific writing and Communication (24B13BT311)**: 95.2% (40.0/42.0)
+**OPERATING SYSTEMS AND SYSTEMS PROGRAMMING(15B11CI412)**: 87.5% (38.0/43.0)
+**OPERATING SYSTEMS AND SYSTEMS PROGRAMMING LAB(15B17CI472)**: 100.0% (13.0/13.0)
+**OPEN SOURCE SOFTWARE LAB(15B17CI575)**: 93.3% (14.0/15.0)
+**MINOR PROJECT-1(15B29CI591)**: N/A% (0/0)
+**MULTIMEDIA LAB(15B28CI582)**: 92.3% (12.0/13.0)
+**THEORY OF NUMBERS(16B1NMA731)**: 83.7% (36.0/43.0)
+**SOCIOLOGY OF MEDIA(16B1NHS435)**: 88.1% (37.0/42.0)
+**Computer  Networks and Security(18B11CS212)**: 92.5% (37.0/40.0)
+**FUNDAMENTALS OF COMPUTER SECURITY(20B12CS332)**: 86.0% (37.0/43.0)
+**COMPUTER NETWORKS AND SECURITY LAB(18B15CS212)**: 84.6% (11.0/13.0)
+**INDIAN CONSTITUTION & TRADITIONAL KNOWLEDGE(20B13HS311)**: 83.7% (36.0/43.0)
+**COMPUTER ORGANISATION AND ARCHITECTURE(15B11CI313)**: 93.6% (34.0/35.0)
+**COMPUTER ORGANISATION AND ARCHITECTURE LAB(15B17CI373)**: 93.3% (14.0/15.0)
+**PROBABILITY AND RANDOM PROCESSES(15B11MA301)**: 86.8% (36.0/41.0)
+**ENVIRONMENTAL STUDIES(19B13BT211)**: 91.7% (33.0/36.0)
+**DIGITAL SYSTEMS(18B11EC213)**: 88.4% (33.0/38.0)
+**DIGITAL SYSTEMS LAB(18B15EC213)**: 91.7% (11.0/12.0)
+**Introduction to Political Science(23B12HS211)**: 94.6% (25.0/25.0)
+**DATABASE SYSTEMS AND WEB(15B11CI312)**: 85.2% (34.0/41.0)
+**DATABASE SYSTEMS AND WEB LAB(15B17CI372)**: 76.5% (13.0/17.0)
+**ECONOMICS(15B11HS211)**: 95.3% (26.0/28.0)
+**ELECTRICAL SCIENCE-2(15B11EC211)**: 80.0% (32.0/42.0)
+**THEORETICAL FOUNDATIONS OF COMPUTER SCIENCE(15B11CI212)**: 82.5% (34.0/46.0)
+**ELECTRICAL SCIENCE LAB -2(15B17EC271)**: 92.3% (12.0/13.0)
+**DATA STRUCTURES AND ALGORITHMS(18B11CS211)**: 92.3% (38.0/42.0)
+**DATA STRUCTURES AND ALGORITHMS LAB(18B15CS211)**: 87.5% (21.0/24.0)
+**Professional Communication Practice(22B15HS211)**: 88.9% (8.0/9.0)
+
+[2025-06-17 12:44:06] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 📊 Your attendance:
+**CLOUD BASED ENTERPRISE SYSTEMS(15B22CI521)**: 100.0% (40.0/36.0)
+**CLOUD BASED ENTERPRISE SYSTEMS LAB(15B28CI581)**: 84.6% (11.0/13.0)
+**DATA MINING AND WEB ALGORITHMS(15B22CI621)**: 90.4% (35.0/40.0)
+**DATA MINING AND WEB ALGORITHMS LAB(15B28CI681)**: 91.7% (11.0/12.0)
+**MINOR PROJECT-2(15B29CI691)**: N/A% (0/0)
+**ECONOMETRIC ANALYSIS(19B12HS611)**: 85.0% (24.0/28.0)
+**APPLICATIONAL ASPECTS OF DIFFERENTIAL EQUATIONS(20B12MA311)**: 80.5% (33.0/41.0)
+**Sensor Technology & Android Programming(21B12CS312)**: 89.7% (35.0/39.0)
+**Fundamentals of Distributed and Cloud Computing(21B12CS313)**: 100.0% (37.0/35.0)
+**Scientific writing and Communication (24B13BT311)**: 95.2% (40.0/42.0)
+**OPERATING SYSTEMS AND SYSTEMS PROGRAMMING(15B11CI412)**: 87.5% (38.0/43.0)
+**OPERATING SYSTEMS AND SYSTEMS PROGRAMMING LAB(15B17CI472)**: 100.0% (13.0/13.0)
+**OPEN SOURCE SOFTWARE LAB(15B17CI575)**: 93.3% (14.0/15.0)
+**MINOR PROJECT-1(15B29CI591)**: N/A% (0/0)
+**MULTIMEDIA LAB(15B28CI582)**: 92.3% (12.0/13.0)
+**THEORY OF NUMBERS(16B1NMA731)**: 83.7% (36.0/43.0)
+**SOCIOLOGY OF MEDIA(16B1NHS435)**: 88.1% (37.0/42.0)
+**Computer  Networks and Security(18B11CS212)**: 92.5% (37.0/40.0)
+**FUNDAMENTALS OF COMPUTER SECURITY(20B12CS332)**: 86.0% (37.0/43.0)
+**COMPUTER NETWORKS AND SECURITY LAB(18B15CS212)**: 84.6% (11.0/13.0)
+**INDIAN CONSTITUTION & TRADITIONAL KNOWLEDGE(20B13HS311)**: 83.7% (36.0/43.0)
+**COMPUTER ORGANISATION AND ARCHITECTURE(15B11CI313)**: 93.6% (34.0/35.0)
+**COMPUTER ORGANISATION AND ARCHITECTURE LAB(15B17CI373)**: 93.3% (14.0/15.0)
+**PROBABILITY AND RANDOM PROCESSES(15B11MA301)**: 86.8% (36.0/41.0)
+**ENVIRONMENTAL STUDIES(19B13BT211)**: 91.7% (33.0/36.0)
+**DIGITAL SYSTEMS(18B11EC213)**: 88.4% (33.0/38.0)
+**DIGITAL SYSTEMS LAB(18B15EC213)**: 91.7% (11.0/12.0)
+**Introduction to Political Science(23B12HS211)**: 94.6% (25.0/25.0)
+**DATABASE SYSTEMS AND WEB(15B11CI312)**: 85.2% (34.0/41.0)
+**DATABASE SYSTEMS AND WEB LAB(15B17CI372)**: 76.5% (13.0/17.0)
+**ECONOMICS(15B11HS211)**: 95.3% (26.0/28.0)
+**ELECTRICAL SCIENCE-2(15B11EC211)**: 80.0% (32.0/42.0)
+**THEORETICAL FOUNDATIONS OF COMPUTER SCIENCE(15B11CI212)**: 82.5% (34.0/46.0)
+**ELECTRICAL SCIENCE LAB -2(15B17EC271)**: 92.3% (12.0/13.0)
+**DATA STRUCTURES AND ALGORITHMS(18B11CS211)**: 92.3% (38.0/42.0)
+**DATA STRUCTURES AND ALGORITHMS LAB(18B15CS211)**: 87.5% (21.0/24.0)
+**Professional Communication Practice(22B15HS211)**: 88.9% (8.0/9.0)
+
+[2025-06-17 12:53:46] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 12:53:46] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 12:59:42] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 12:59:42] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:04:42] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:04:42] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:24:35] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:24:35] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:29:03] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:29:03] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:30:37] [SOURCE: PyJIIT]
+User:  What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:30:37] [SOURCE: API]
+User:  What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:35:36] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:35:36] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: ⚠️ No attendance data found for that subject.
+
+[2025-06-17 13:40:15] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: 📘 Attendance for **ECONOMETRIC ANALYSIS(19B12HS611)**:
+- Total Classes: 28.0
+- Attended: 24.0
+- Percentage: 85.0%
+
+[2025-06-17 13:40:15] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 📘 Attendance for **ECONOMETRIC ANALYSIS(19B12HS611)**:
+- Total Classes: 28.0
+- Attended: 24.0
+- Percentage: 85.0%
+
+[2025-06-17 13:47:37] [SOURCE: PyJIIT]
+User: What is my attendance in Data Mining and Web Algorithms?
+Bot: **Attendance for `DATA MINING AND WEB ALGORITHMS(15B22CI621)`**:
+• **Total Classes:** `40.0`
+• **Attended:** `35.0`
+• **Percentage:** `90.4`%
+
+[2025-06-17 13:47:37] [SOURCE: API]
+User: What is my attendance in Data Mining and Web Algorithms?
+Bot: **Attendance for `DATA MINING AND WEB ALGORITHMS(15B22CI621)`**:
+• **Total Classes:** `40.0`
+• **Attended:** `35.0`
+• **Percentage:** `90.4`%
+

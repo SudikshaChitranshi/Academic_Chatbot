@@ -1,57 +1,75 @@
 from duckduckgo_search import DDGS
-import os, json
+from app.services.jiit_services import JIITService
+from app.pyjiit_integration import handle_pyjiit_queries
+from app.logger import log_response
+import os
+import json
+from dotenv import load_dotenv
 
+load_dotenv()
 
-def load_json(filename):
-    base_path = os.path.dirname(__file__)
-    file_path = os.path.join(base_path, "data", filename)
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+# Load credentials from .env
+enrollment = os.getenv("JIIT_ENROLLMENT")
+password = os.getenv("JIIT_PASSWORD")
 
+# Create a single instance
+jiit_service = JIITService(enrollment, password)
+
+CACHE_FILE = os.path.join(os.path.dirname(__file__), "data", "web_cache.json")
+os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+
+# Load cache on startup
+try:
+    with open(CACHE_FILE, "r", encoding="utf-8") as f:
+        web_cache = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    web_cache = {}
+
+def save_cache():
+    with open(CACHE_FILE, "w", encoding="utf-8") as file_handle:
+        json.dump(web_cache, file_handle, indent=2)
 
 def web_search_tool(query):
+    if query in web_cache:
+        return f"🔁 (Cached)\n{web_cache[query]}"
+
     with DDGS() as ddgs:
         results = ddgs.text(query, max_results=2)
         if not results:
             return "No relevant information found on the web."
-        return "\n".join([f"- {r['title']}: {r['href']}" for r in results])
 
-
-def find_faculty(message):
-    faculty_list = load_json("faculty.json").keys()
-    for name in faculty_list:
-        if name.lower() in message.lower():
-            return name
-    return None
-
+        formatted = "\n".join([f"- {r['title']}: {r['href']}" for r in results])
+        web_cache[query] = formatted
+        save_cache()
+        return formatted
 
 def get_tool_response(msg, intent):
     if intent == "faculty_info":
-        faculty_data = load_json("faculty.json")
-        name = find_faculty(msg)
-        if name and name in faculty_data:
-            faculty = faculty_data[name]
-            return (
-                f"Name: {name}\n"
-                f"Email: {faculty.get('email', 'N/A')}\n"
-                f"Phone: {faculty.get('phone', 'N/A')}\n"
-                f"Department: {faculty.get('department', 'N/A')}\n"
-                f"Cabin: {faculty.get('cabin', 'N/A')}\n"
-                f"Expertise: {', '.join(faculty.get('expertise', []))}"
-            )
-        else:
-            # 🔁 Fallback to web search
-            return web_search_tool(msg)
+        response = web_search_tool(f"site:jiit.ac.in {msg}")
+        log_response(msg, response, source="Web Tool")
+        return response
 
     elif intent == "syllabus_query":
-        syllabus = load_json("syllabus.json")
-        for subject, link in syllabus.items():
-            if subject.lower() in msg.lower():
-                return f"Syllabus for {subject}: {link}"
-        return "Syllabus not found."
+        response = web_search_tool(f"syllabus {msg}")
+        log_response(msg, response, source="Web Tool")
+        return response
 
     elif intent == "event_info":
-        return web_search_tool(msg)
+        response = web_search_tool(f"JIIT events {msg}")
+        log_response(msg, response, source="Web Tool")
+        return response
+
+    elif intent in ["student_gpa", "courses_registered", "fees_due"]:
+        response = handle_pyjiit_queries(intent, jiit_service)
+        log_response(msg, response, source="PyJIIT")
+        return response
+    
+    elif intent in ["online_course_recommendation", "study_resource"]:
+        return web_search_tool(f"{msg} site:youtube.com OR site:coursera.org OR site:geeksforgeeks.org")
 
     else:
-        return web_search_tool(msg)
+        response = web_search_tool(msg)
+        log_response(msg, response, source="Web Tool")
+        return response
+
+
