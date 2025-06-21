@@ -1,5 +1,8 @@
 // ChatBox.jsx
 import React, { useState } from 'react';
+import LoginPopup from "./LoginPopup"; 
+import { useSession } from './useSession';
+
 
 function linkify(text) {
   // Escape HTML to prevent XSS before converting markdown
@@ -47,20 +50,44 @@ function linkify(text) {
 export default function ChatApp() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
+  const [showLoginPopup, setShowLoginPopup] = useState(false);
+  const {session, saveSession } = useSession();
 
   const sendMessage = async () => {
     const userMessage = { role: 'user', text: input };
     setMessages(prev => [...prev, userMessage]);
     setInput('');
-
+    console.log("input print ");
+    console.log(input);
+    console.log("session print ");
+    console.log(session);
+    const requestBody = {
+    message: input,
+    ...(session && session.enrollment && session.password
+      ? { session }
+      : {})
+  };
+ console.log("requestBody print ");
+ console.log(requestBody);
     const response = await fetch('http://localhost:5000/api/chat', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ message: input }),
+  body: JSON.stringify(requestBody),
 });
     const data = await response.json();
     const botMessage = { role: 'bot', text: data.reply };
+
+    if (botMessage.text.includes("🔐 Please log in")) {
+    setShowLoginPopup(true);  // ⬅️ Trigger popup
+  }
     setMessages(prev => [...prev, botMessage]);
+    };
+  
+
+ const handleLoginSubmit = (creds) => {
+    saveSession(creds);
+    setShowLoginPopup(false);
+    if (input.trim() !== '') sendMessage();
   };
 
   return (
@@ -107,9 +134,17 @@ export default function ChatApp() {
         <button onClick={sendMessage} style={styles.button}>Send</button>
       </div>
     </div>
+
+    {showLoginPopup && (
+        <LoginPopup
+          onSubmit={handleLoginSubmit}
+          onClose={() => setShowLoginPopup(false)}
+        />
+      )}
   </div>
 );
 }
+
 
 const styles = {
   outer: {

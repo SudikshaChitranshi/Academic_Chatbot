@@ -568,3 +568,93 @@ Bot: **Attendance for `DATA MINING AND WEB ALGORITHMS(15B22CI621)`**:
 • **Attended:** `35.0`
 • **Percentage:** `90.4`%
 
+[2025-06-21 01:16:52] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 01:48:24] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 02:04:58] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 02:13:01] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 02:15:04] [SOURCE: API]
+User:  What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 02:16:32] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 10:50:42] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 10:55:35] [SOURCE: API]
+User:  What is my attendance in Econometric Analysis ?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 11:14:02] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 11:36:09] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 12:07:47] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 12:18:25] [SOURCE: API]
+User:  What is my attendance in Econometric Analysis ?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-21 12:27:50] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis ?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-06-21 12:27:50] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-06-21 12:36:18] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis ?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-06-21 12:36:18] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-06-21 12:44:43] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis ?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-06-21 12:44:43] [SOURCE: API]
+User: What is my attendance in Econometric Analysis ?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+

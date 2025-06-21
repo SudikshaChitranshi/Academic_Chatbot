@@ -1,34 +1,22 @@
 # app/pyjiit_integration.py
 
 from app.services.jiit_services import JIITService
-from app.utils.attendance_utils import find_subject_attendance
+import asyncio
+from app.services.jsjiit_client import get_cgpa_sgpa
 import re, string
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
-# Load credentials from .env
-enrollment = os.getenv("JIIT_ENROLLMENT")
-password = os.getenv("JIIT_PASSWORD")
+def handle_pyjiit_queries(intent, jiit_service, user_query="",session=None):
 
-if not enrollment or not password:
-    raise ValueError("Missing JIIT_ENROLLMENT or JIIT_PASSWORD in .env file")
-
-# Create a single instance
-try:
-    jiit_service = JIITService(enrollment, password)
-except Exception as e:
-    jiit_service = None
-    print(f"[ERROR] Failed to initialize JIITService: {e}")
-
-def handle_pyjiit_queries(intent, jiit_service, user_query=""):
-    if intent == "student_gpa":
-        return f"Your current GPA is: {jiit_service.get_gpa()}"
-    elif intent == "courses_registered":
+    if intent == "courses_registered":
+        if not session or "enrollment" not in session:
+            return "🔐 Please log in to view your registered courses."
         courses = jiit_service.get_registered_courses()
         return "You're registered for the following courses:\n" + "\n".join(courses)
+    
     elif intent == "attendance":
+        if not session or "enrollment" not in session:
+            return "🔐 Please log in to view your attendance."
         all_attendance = jiit_service.get_attendance()
         query = re.sub(r"(what\s+is\s+)?(my\s+)?attendance\s+(in|for)", "", user_query.strip().lower()).strip()
         query = query.translate(str.maketrans("", "", string.punctuation)).strip()

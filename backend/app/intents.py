@@ -11,7 +11,7 @@ def detect_intent(message: str) -> str:
         return "syllabus"
     elif any(keyword in message for keyword in ["gpa", "grades", "cgpa"]):
         return "student_gpa"
-    elif any(keyword in message for keyword in ["registered courses", "next semester", "timetable"]):
+    elif any(keyword in message for keyword in ["registered courses", "next semester"]):
         return "courses_registered"
     elif any(keyword in message for keyword in ["attendance"]):
         return "attendance"

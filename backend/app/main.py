@@ -1,11 +1,12 @@
 # backend/app/main.py
 from fastapi import FastAPI, Request
+from app.routes import cgpa_route
 from fastapi.middleware.cors import CORSMiddleware
 from app.chatbot import get_bot_response
-from app.logger import log_response  # ✅ import the logger
+from app.logger import log_response  
 
 app = FastAPI()
-
+app.include_router(cgpa_route.router)
 # Enable CORS for frontend
 app.add_middleware(
     CORSMiddleware,
@@ -22,11 +23,12 @@ def read_root():
 async def chat_endpoint(req: Request):
     data = await req.json()
     user_msg = data.get("message", "")
+    session = data.get("session", {})   
 
     if not user_msg.strip():
         return {"reply": "Please enter a valid message."}
     
-    result = get_bot_response(user_msg)
+    result = get_bot_response(user_msg, session=session)
     if isinstance(result, tuple):
         bot_reply, _ = result
     else:

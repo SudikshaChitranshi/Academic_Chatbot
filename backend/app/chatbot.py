@@ -7,23 +7,9 @@ from app.intents import detect_intent
 from app.tools import get_tool_response
 from app.pyjiit_integration import handle_pyjiit_queries
 from app.services.jiit_services import JIITService
+from app.services.jsjiit_client import get_cgpa_sgpa
 from app.logger import log_response
 import traceback
-
-# Load .env credentials
-load_dotenv()
-enrollment = os.getenv("JIIT_ENROLLMENT")
-password = os.getenv("JIIT_PASSWORD")
-
-if not enrollment or not password:
-    raise ValueError("Missing JIIT_ENROLLMENT or JIIT_PASSWORD in .env file")
-
-# Initialize JIIT service (used in PyJIIT integration)
-try:
-    jiit_service = JIITService(enrollment, password)
-except Exception as e:
-    jiit_service = None
-    print(f"[ERROR] Failed to initialize JIITService: {e}")
 
 # Load LLM
 llm = OllamaLLM(model="llama3.2:3b")
@@ -50,32 +36,53 @@ chain = prompt | llm  # Connect prompt to model
 
 # Main function for chatbot use
 
-def get_bot_response(message: str):
+def get_bot_response(message: str,session=None):
     intent = detect_intent(message)
 
     # 1. Handle static tool-based responses
     if intent in ["faculty_info", "event_query", "syllabus", "assignment_due"]:
-        tool_reply = get_tool_response(message, intent)
+        tool_reply = get_tool_response(message, intent, session)
         log_response(message, tool_reply, source="Web Tool")
         return tool_reply, intent  
 
 
     # 2. Handle dynamic student data via PyJIIT
+    if intent in ["courses_registered", "fees_due", "attendance"]:
+        if not session or "enrollment" not in session:
+            return "🔐 Please log in to access this information."
 
-    if intent in ["student_gpa", "courses_registered", "fees_due", "attendance"]:
-        if jiit_service:
-            try:
-                pyjiit_response = handle_pyjiit_queries(intent, jiit_service, message)
-                if pyjiit_response:
-                    log_response(message, pyjiit_response, source="PyJIIT")
-                    return pyjiit_response, intent
-            except Exception as e:
-                error_trace = traceback.format_exc()
-                log_response(message, str(e), source="PyJIIT Error")
-                print("PyJIIT Exception:", error_trace)
-                return "There was an issue fetching your data from the JIIT portal."
+        creds = session
+        jiit_service = JIITService(creds["enrollment"], creds["password"])
+        print("enrollment : ",creds["enrollment"])
+        
+
+        try:
+            pyjiit_response = handle_pyjiit_queries(intent, jiit_service, message, session=session)
+            if pyjiit_response:
+                log_response(message, pyjiit_response, source="PyJIIT")
+                return pyjiit_response, intent
+        except Exception as e:
+            error_trace = traceback.format_exc()
+            log_response(message, str(e), source="PyJIIT Error")
+            print("PyJIIT Exception:", error_trace)
+            return "There was an issue fetching your data from the JIIT portal."
         else:
             return "Login to JIIT portal failed. Please check credentials."
+        
+    elif intent in ["cgpa", "sgpa", "academic_record", "student_gpa"]:
+        if not session or "enrollment" not in session:
+            return "🔐 Please log in to view your CGPA.", intent
+
+        creds = session
+        try:
+            result = get_cgpa_sgpa(creds["enrollment"], creds["password"])
+            if "error" in result:
+                return f"⚠️ Could not fetch CGPA: {result['error']}", intent
+            return f"🎓 Your CGPA is `{result['cgpa']}` and SGPA is `{result['sgpa']}`.", intent
+        except Exception as e:
+            error_trace = traceback.format_exc()
+            print("JSJIIT Exception:", error_trace)
+            return "There was an issue fetching your academic record.", intent
 
     # 3. Fallback: LLM response
     try:

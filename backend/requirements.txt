@@ -5,4 +5,5 @@ langchain-community
 ollama
 langchain-ollama
 duckduckgo_search
-python-dotenv
+httpx
+pyjiit

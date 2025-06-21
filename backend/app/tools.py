@@ -4,16 +4,8 @@ from app.pyjiit_integration import handle_pyjiit_queries
 from app.logger import log_response
 import os
 import json
-from dotenv import load_dotenv
+from app.services.jsjiit_client import get_cgpa_sgpa
 
-load_dotenv()
-
-# Load credentials from .env
-enrollment = os.getenv("JIIT_ENROLLMENT")
-password = os.getenv("JIIT_PASSWORD")
-
-# Create a single instance
-jiit_service = JIITService(enrollment, password)
 
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "data", "web_cache.json")
 os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
@@ -43,7 +35,7 @@ def web_search_tool(query):
         save_cache()
         return formatted
 
-def get_tool_response(msg, intent):
+def get_tool_response(msg, intent,session=None):
     if intent == "faculty_info":
         response = web_search_tool(f"site:jiit.ac.in {msg}")
         log_response(msg, response, source="Web Tool")
@@ -59,10 +51,28 @@ def get_tool_response(msg, intent):
         log_response(msg, response, source="Web Tool")
         return response
 
-    elif intent in ["student_gpa", "courses_registered", "fees_due"]:
-        response = handle_pyjiit_queries(intent, jiit_service)
+    elif intent in ["attendance", "courses_registered", "fees_due"]:
+        if not session or "enrollment" not in session:
+            return "🔒 Please login to access this information."
+        
+        creds = session
+        jiit_service = JIITService(creds["enrollment"], creds["password"])
+    
+        response = handle_pyjiit_queries(intent,jiit_service, msg, session=session)
         log_response(msg, response, source="PyJIIT")
         return response
+    
+    elif intent == "student_gpa":
+        if not session or "enrollment" not in session:
+            return "🔒 Please login to fetch GPA."
+
+        creds = session
+        response = get_cgpa_sgpa(creds["enrollment"], creds["password"])
+        log_response(msg, response, source="JSJIIT")
+        return (
+            f"🎓 Your CGPA is `{response['cgpa']}` and SGPA is `{response['sgpa']}`"
+            if "cgpa" in response else f"⚠️ {response.get('error', 'Unable to fetch GPA.')}"
+        )
     
     elif intent in ["online_course_recommendation", "study_resource"]:
         return web_search_tool(f"{msg} site:youtube.com OR site:coursera.org OR site:geeksforgeeks.org")
