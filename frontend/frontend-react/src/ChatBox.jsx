@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import LoginPopup from "./LoginPopup"; 
 import { useSession } from './useSession';
+import GPAChart from './GPAChart';
 
 
 function linkify(text) {
@@ -49,47 +50,67 @@ function linkify(text) {
 
 export default function ChatApp() {
   const [messages, setMessages] = useState([]);
+  console.log("Debug: setMessages is", setMessages);  
   const [input, setInput] = useState('');
+  const [loading, setLoading] = useState(false);
   const [showLoginPopup, setShowLoginPopup] = useState(false);
-  const {session, saveSession } = useSession();
-
-  const sendMessage = async () => {
-    const userMessage = { role: 'user', text: input };
-    setMessages(prev => [...prev, userMessage]);
-    setInput('');
-    console.log("input print ");
-    console.log(input);
-    console.log("session print ");
-    console.log(session);
-    const requestBody = {
-    message: input,
-    ...(session && session.enrollment && session.password
-      ? { session }
-      : {})
-  };
- console.log("requestBody print ");
- console.log(requestBody);
-    const response = await fetch('http://localhost:5000/api/chat', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(requestBody),
-});
-    const data = await response.json();
-    const botMessage = { role: 'bot', text: data.reply };
-
-    if (botMessage.text.includes("🔐 Please log in")) {
-    setShowLoginPopup(true);  // ⬅️ Trigger popup
-  }
-    setMessages(prev => [...prev, botMessage]);
-    };
+  const { session, saveSession } = useSession();
   
+  
+  const sendMessage = async () => {
+    if (!input.trim()) return;
+  const currentInput = input; 
+  setMessages(prev => [...prev, { role: 'user', text: currentInput }]);
+  setInput('');
+  setLoading(true)
 
- const handleLoginSubmit = (creds) => {
-    saveSession(creds);
-    setShowLoginPopup(false);
-    if (input.trim() !== '') sendMessage();
+  const requestBody = {
+    message: currentInput,
+    ...(session?.enrollment && session?.password ? { session } : {})
   };
+try {
+  const response = await fetch('http://localhost:5000/api/chat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(requestBody),
+  });
 
+  const data = await response.json();
+  const replyText = Array.isArray(data.reply)
+  ? data.reply[0]
+  : typeof data.reply === 'string'
+    ? data.reply
+    : "No reply received";
+
+  if (replyText.includes("🔐 Please log in")) {
+    setShowLoginPopup(true);
+  }
+  setMessages(prev => [...prev, { role: 'bot', text: replyText }]);
+
+  const graphData = Array.isArray(data.reply) && data.reply[1]?.graph_data
+  ? data.reply[1].graph_data
+  : data.graph_data;
+
+  console.log("Graph data received:", graphData);
+
+  if (Array.isArray(graphData) && graphData.length > 0) {
+  setMessages(prev => [...prev, {
+    role: 'graph', graphData
+  }]);
+}
+}catch (err) {
+    console.error("Chatbot error:", err);
+    setMessages(prev => [...prev, { role: 'bot', text: "❌ Something went wrong. Try again." }]);
+  } finally {
+    setLoading(false);  
+  }
+  };
+const handleLoginSubmit = async (creds) => {
+  saveSession(creds);
+  setShowLoginPopup(false);
+  if (input.trim()) await sendMessage();
+};  
+ 
   return (
   <div style={styles.outer}>
     {/* Top Header */}
@@ -105,7 +126,10 @@ export default function ChatApp() {
     {/* Chat Container */}
     <div style={styles.container}>
       <div style={styles.chatBox}>
-        {messages.map((msg, i) => (
+        {messages.map((msg, i) => 
+          msg.role === 'graph' ? (
+            <GPAChart key={i} data={msg.graphData} />
+          ) :(
           <div
             key={i}
             style={{
@@ -117,7 +141,7 @@ export default function ChatApp() {
           >
             <div
               dangerouslySetInnerHTML={{
-                __html: `<b>${msg.role === 'user' ? 'You' : 'Bot'}:</b> ${linkify(msg.text)}`,
+                __html: `<b>${msg.role === 'user' ? 'You' : 'Bot'}:</b> ${typeof msg.text === 'string' ? linkify(msg.text): '[Invalid response]'}`,
               }}
             />
           </div>
@@ -133,14 +157,21 @@ export default function ChatApp() {
         />
         <button onClick={sendMessage} style={styles.button}>Send</button>
       </div>
-    </div>
-
-    {showLoginPopup && (
-        <LoginPopup
+  
+        {loading && (
+          <div style={{ padding: "10px", color: "#999", fontStyle: "italic" }}>
+            Bot is typing...
+          </div>
+        )}
+      
+      
+        {showLoginPopup && (
+          <LoginPopup
           onSubmit={handleLoginSubmit}
           onClose={() => setShowLoginPopup(false)}
-        />
+          />
       )}
+    </div>
   </div>
 );
 }

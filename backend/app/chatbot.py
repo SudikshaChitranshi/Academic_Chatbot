@@ -1,13 +1,11 @@
-from dotenv import load_dotenv
-import os
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import OllamaLLM
 
 from app.intents import detect_intent
 from app.tools import get_tool_response
-from app.pyjiit_integration import handle_pyjiit_queries
+from app.jsjiit_integration import handle_jsjiit_queries
 from app.services.jiit_services import JIITService
-from app.services.jsjiit_client import get_cgpa_sgpa
 from app.logger import log_response
 import traceback
 
@@ -46,43 +44,27 @@ def get_bot_response(message: str,session=None):
         return tool_reply, intent  
 
 
-    # 2. Handle dynamic student data via PyJIIT
-    if intent in ["courses_registered", "fees_due", "attendance"]:
+    # 2. Handle dynamic student data via JSJIIT
+    if intent in ["courses_registered", "fees_due", "attendance", "student_marks", "student_gpa"]:
         if not session or "enrollment" not in session:
             return "🔐 Please log in to access this information."
 
         creds = session
         jiit_service = JIITService(creds["enrollment"], creds["password"])
-        print("enrollment : ",creds["enrollment"])
         
-
         try:
-            pyjiit_response = handle_pyjiit_queries(intent, jiit_service, message, session=session)
-            if pyjiit_response:
-                log_response(message, pyjiit_response, source="PyJIIT")
-                return pyjiit_response, intent
+            jsjiit_response = handle_jsjiit_queries(intent, jiit_service, message, session=session)
+            if jsjiit_response:
+                log_response(message, jsjiit_response, source="JSJIIT")
+                return jsjiit_response, intent
         except Exception as e:
             error_trace = traceback.format_exc()
-            log_response(message, str(e), source="PyJIIT Error")
-            print("PyJIIT Exception:", error_trace)
+            log_response(message, str(e), source="JSJIIT Error")
+            print("JSJIIT Exception:", error_trace)
             return "There was an issue fetching your data from the JIIT portal."
         else:
             return "Login to JIIT portal failed. Please check credentials."
-        
-    elif intent in ["cgpa", "sgpa", "academic_record", "student_gpa"]:
-        if not session or "enrollment" not in session:
-            return "🔐 Please log in to view your CGPA.", intent
-
-        creds = session
-        try:
-            result = get_cgpa_sgpa(creds["enrollment"], creds["password"])
-            if "error" in result:
-                return f"⚠️ Could not fetch CGPA: {result['error']}", intent
-            return f"🎓 Your CGPA is `{result['cgpa']}` and SGPA is `{result['sgpa']}`.", intent
-        except Exception as e:
-            error_trace = traceback.format_exc()
-            print("JSJIIT Exception:", error_trace)
-            return "There was an issue fetching your academic record.", intent
+    
 
     # 3. Fallback: LLM response
     try:

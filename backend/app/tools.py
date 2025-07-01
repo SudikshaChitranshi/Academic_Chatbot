@@ -1,10 +1,9 @@
 from duckduckgo_search import DDGS
 from app.services.jiit_services import JIITService
-from app.pyjiit_integration import handle_pyjiit_queries
+from app.jsjiit_integration import handle_jsjiit_queries
 from app.logger import log_response
 import os
 import json
-from app.services.jsjiit_client import get_cgpa_sgpa
 
 
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "data", "web_cache.json")
@@ -51,29 +50,17 @@ def get_tool_response(msg, intent,session=None):
         log_response(msg, response, source="Web Tool")
         return response
 
-    elif intent in ["attendance", "courses_registered", "fees_due"]:
+    elif intent in ["attendance", "courses_registered", "fees_due", "student_marks", "student_gpa"]:
         if not session or "enrollment" not in session:
             return "🔒 Please login to access this information."
         
         creds = session
         jiit_service = JIITService(creds["enrollment"], creds["password"])
     
-        response = handle_pyjiit_queries(intent,jiit_service, msg, session=session)
-        log_response(msg, response, source="PyJIIT")
-        return response
-    
-    elif intent == "student_gpa":
-        if not session or "enrollment" not in session:
-            return "🔒 Please login to fetch GPA."
-
-        creds = session
-        response = get_cgpa_sgpa(creds["enrollment"], creds["password"])
+        response = handle_jsjiit_queries(intent,jiit_service, msg, session=session)
         log_response(msg, response, source="JSJIIT")
-        return (
-            f"🎓 Your CGPA is `{response['cgpa']}` and SGPA is `{response['sgpa']}`"
-            if "cgpa" in response else f"⚠️ {response.get('error', 'Unable to fetch GPA.')}"
-        )
-    
+        return response
+  
     elif intent in ["online_course_recommendation", "study_resource"]:
         return web_search_tool(f"{msg} site:youtube.com OR site:coursera.org OR site:geeksforgeeks.org")
 

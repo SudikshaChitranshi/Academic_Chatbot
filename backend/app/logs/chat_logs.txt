@@ -658,3 +658,383 @@ Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
 • **Attended:** `24.0`
 • **Percentage:** `85.0`%
 
+[2025-06-23 11:16:31] [SOURCE: API]
+User: What is my current gpa ?
+Bot: There was an issue fetching your academic record.
+
+[2025-06-23 11:25:33] [SOURCE: Web Tool]
+User: What is the email id of DR Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+-  Jiit Noida: List of Facutly (As on 31 January 2025): https://www.jiit.ac.in/sites/default/files/FacultyList.pdf
+
+[2025-06-23 11:25:33] [SOURCE: Web Tool]
+User: What is the email id of DR Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+-  Jiit Noida: List of Facutly (As on 31 January 2025): https://www.jiit.ac.in/sites/default/files/FacultyList.pdf
+
+[2025-06-23 11:25:33] [SOURCE: API]
+User: What is the email id of DR Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+-  Jiit Noida: List of Facutly (As on 31 January 2025): https://www.jiit.ac.in/sites/default/files/FacultyList.pdf
+
+[2025-06-23 11:26:17] [SOURCE: API]
+User: Tell me some resources for Operating Systems
+Bot: Sorry, I encountered an issue processing your message.
+
+[2025-06-23 11:30:05] [SOURCE: Web Tool]
+User: What is the email id of Dr Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+- Computer Science and IT Faculty - JIIT: https://www.jiit.ac.in/computer-science-and-it-faculty
+
+[2025-06-23 11:30:05] [SOURCE: Web Tool]
+User: What is the email id of Dr Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+- Computer Science and IT Faculty - JIIT: https://www.jiit.ac.in/computer-science-and-it-faculty
+
+[2025-06-23 11:30:05] [SOURCE: API]
+User: What is the email id of Dr Pawan Upadhayay?
+Bot: - Dr. Pawan Kumar Upadhyay - Assistant Professor (Senior Grade) in ... - JIIT: https://www.jiit.ac.in/dr-pawan-kumar-upadhyay
+- Computer Science and IT Faculty - JIIT: https://www.jiit.ac.in/computer-science-and-it-faculty
+
+[2025-06-23 11:30:38] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: 🔐 Please log in to access this information.
+
+[2025-06-23 11:42:28] [SOURCE: PyJIIT]
+User: What is my attendance in Econometric Analysis?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-06-23 11:42:28] [SOURCE: API]
+User: What is my attendance in Econometric Analysis?
+Bot: **Attendance for `ECONOMETRIC ANALYSIS(19B12HS611)`**:
+• **Total Classes:** `28.0`
+• **Attended:** `24.0`
+• **Percentage:** `85.0`%
+
+[2025-07-01 00:48:04] [SOURCE: JSJIIT]
+User: What is my gpa ?
+Bot: Error fetching GPA data: 'JIITService' object has no attribute 'get_sgpa_cgpa'
+
+[2025-07-01 00:48:04] [SOURCE: API]
+User: What is my gpa ?
+Bot: Error fetching GPA data: 'JIITService' object has no attribute 'get_sgpa_cgpa'
+
+[2025-07-01 02:56:48] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'JIITService' object has no attribute 'get_sgpa_cgpa'
+
+[2025-07-01 02:56:48] [SOURCE: API]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'JIITService' object has no attribute 'get_sgpa_cgpa'
+
+[2025-07-01 03:01:38] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:01:38] [SOURCE: API]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:07:51] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:07:51] [SOURCE: API]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:08:10] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:08:10] [SOURCE: API]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:17:31] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:17:31] [SOURCE: API]
+User: What is my current gpa ?
+Bot: Error fetching GPA data: 'WebportalSession' object has no attribute 'enrollmentno'
+
+[2025-07-01 03:19:23] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: {'semesterList': [{'totalpointsecuredsgpa': 152, 'totalcoursecredit': 23, 'totalearnedcredits': 23, 'totalpointsecuredcgpa': 152, 'totalearnedcredit': 23, 'sgpa': 6.6, 'stynumber': 3, 'totalregisteredcredit': 23, 'prograsivegradepoints': 152, 'registeredcredit': 23, 'totalgradepoints': 54, 'cgpa': 6.6, 'prograsivetotalearnedcredit': 23, 'earnedgradepoints': 152, 'prograde': 54}, {'totalpointsecuredsgpa': 110, 'totalcoursecredit': 17, 'totalearnedcredits': 40, 'totalpointsecuredcgpa': 110, 'totalearnedcredit': 17, 'sgpa': 6.5, 'stynumber': 4, 'totalregisteredcredit': 40, 'prograsivegradepoints': 262, 'registeredcredit': 17, 'totalgradepoints': 42, 'cgpa': 6.6, 'prograsivetotalearnedcredit': 40, 'earnedgradepoints': 110, 'prograde': 96}, {'totalpointsecuredsgpa': 153, 'totalcoursecredit': 22, 'totalearnedcredits': 62, 'totalpointsecuredcgpa': 153, 'totalearnedcredit': 22, 'sgpa': 7, 'stynumber': 5, 'totalregisteredcredit': 62, 'prograsivegradepoints': 415, 'registeredcredit': 22, 'totalgradepoints': 69, 'cgpa': 6.7, 'prograsivetotalearnedcredit': 62, 'earnedgradepoints': 153, 'prograde': 165}, {'totalpointsecuredsgpa': 157, 'totalcoursecredit': 23, 'totalearnedcredits': 85, 'totalpointsecuredcgpa': 157, 'totalearnedcredit': 23, 'sgpa': 6.8, 'stynumber': 6, 'totalregisteredcredit': 85, 'prograsivegradepoints': 572, 'registeredcredit': 23, 'totalgradepoints': 62, 'cgpa': 6.7, 'prograsivetotalearnedcredit': 85, 'earnedgradepoints': 157, 'prograde': 227}]}
+
+[2025-07-01 03:19:23] [SOURCE: API]
+User: What is my current gpa ?
+Bot: {'semesterList': [{'totalpointsecuredsgpa': 152, 'totalcoursecredit': 23, 'totalearnedcredits': 23, 'totalpointsecuredcgpa': 152, 'totalearnedcredit': 23, 'sgpa': 6.6, 'stynumber': 3, 'totalregisteredcredit': 23, 'prograsivegradepoints': 152, 'registeredcredit': 23, 'totalgradepoints': 54, 'cgpa': 6.6, 'prograsivetotalearnedcredit': 23, 'earnedgradepoints': 152, 'prograde': 54}, {'totalpointsecuredsgpa': 110, 'totalcoursecredit': 17, 'totalearnedcredits': 40, 'totalpointsecuredcgpa': 110, 'totalearnedcredit': 17, 'sgpa': 6.5, 'stynumber': 4, 'totalregisteredcredit': 40, 'prograsivegradepoints': 262, 'registeredcredit': 17, 'totalgradepoints': 42, 'cgpa': 6.6, 'prograsivetotalearnedcredit': 40, 'earnedgradepoints': 110, 'prograde': 96}, {'totalpointsecuredsgpa': 153, 'totalcoursecredit': 22, 'totalearnedcredits': 62, 'totalpointsecuredcgpa': 153, 'totalearnedcredit': 22, 'sgpa': 7, 'stynumber': 5, 'totalregisteredcredit': 62, 'prograsivegradepoints': 415, 'registeredcredit': 22, 'totalgradepoints': 69, 'cgpa': 6.7, 'prograsivetotalearnedcredit': 62, 'earnedgradepoints': 153, 'prograde': 165}, {'totalpointsecuredsgpa': 157, 'totalcoursecredit': 23, 'totalearnedcredits': 85, 'totalpointsecuredcgpa': 157, 'totalearnedcredit': 23, 'sgpa': 6.8, 'stynumber': 6, 'totalregisteredcredit': 85, 'prograsivegradepoints': 572, 'registeredcredit': 23, 'totalgradepoints': 62, 'cgpa': 6.7, 'prograsivetotalearnedcredit': 85, 'earnedgradepoints': 157, 'prograde': 227}]}
+
+[2025-07-01 09:13:33] [SOURCE: API]
+User: What is my current gpa 
+Bot: 🔐 Please log in to access this information.
+
+[2025-07-01 10:16:04] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: [Semester(registration_code='2025ODDSEM', registration_id='JIRUM25030000001'), Semester(registration_code='2025EVESEM', registration_id='JIRUM24100000001'), Semester(registration_code='2024ODDSEM', registration_id='JIRUM24030000001'), Semester(registration_code='2024EVESEM', registration_id='JIRUM23110000001'), Semester(registration_code='2023ODDSEM', registration_id='JIRUM23040000001')]
+
+[2025-07-01 10:16:04] [SOURCE: API]
+User: What are my marks ?
+Bot: [Semester(registration_code='2025ODDSEM', registration_id='JIRUM25030000001'), Semester(registration_code='2025EVESEM', registration_id='JIRUM24100000001'), Semester(registration_code='2024ODDSEM', registration_id='JIRUM24030000001'), Semester(registration_code='2024EVESEM', registration_id='JIRUM23110000001'), Semester(registration_code='2023ODDSEM', registration_id='JIRUM23040000001')]
+
+[2025-07-01 10:29:25] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 10:29:25] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 10:31:39] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 10:31:39] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 10:32:04] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 10:32:04] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 10:59:30] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'JIITService' object has no attribute 'get_grade_card'
+
+[2025-07-01 10:59:30] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'JIITService' object has no attribute 'get_grade_card'
+
+[2025-07-01 11:02:53] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 11:02:53] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 11:05:48] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 11:05:48] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: JIITService.get_grade_card() takes 1 positional argument but 2 were given
+
+[2025-07-01 11:07:17] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'JIITService' object has no attribute 'get_grades_card'
+
+[2025-07-01 11:07:17] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'JIITService' object has no attribute 'get_grades_card'
+
+[2025-07-01 11:08:58] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'list' object has no attribute 'registration_code'
+
+[2025-07-01 11:08:58] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'list' object has no attribute 'registration_code'
+
+[2025-07-01 11:09:38] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'list' object has no attribute 'registration_code'
+
+[2025-07-01 11:09:38] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'list' object has no attribute 'registration_code'
+
+[2025-07-01 11:11:49] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2023ODDSEM.
+
+[2025-07-01 11:11:49] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2023ODDSEM.
+
+[2025-07-01 11:12:29] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:12:29] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:14:24] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:14:24] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:17:15] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'Webportal' object has no attribute '_JIITService__get_program_id'
+
+[2025-07-01 11:17:15] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'Webportal' object has no attribute '_JIITService__get_program_id'
+
+[2025-07-01 11:21:32] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:21:32] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:22:00] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:22:00] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:23:02] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:23:02] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:23:57] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:23:57] [SOURCE: API]
+User: What are my marks ?
+Bot: Error fetching semesters for marks: 'programid'
+
+[2025-07-01 11:24:30] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:24:30] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:25:17] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:25:17] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:27:02] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:27:02] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:30:48] [SOURCE: JSJIIT]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:30:48] [SOURCE: API]
+User: What are my marks ?
+Bot: No marks found for 2025EVESEM.
+
+[2025-07-01 11:32:48] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 11:32:48] [SOURCE: API]
+User: What is my current gpa ?
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 16:45:32] [SOURCE: API]
+User: What is my current gpa
+Bot: 🔐 Please log in to access this information.
+
+[2025-07-01 18:22:52] [SOURCE: API]
+User: What is my current gpa
+Bot: 🔐 Please log in to access this information.
+
+[2025-07-01 18:30:39] [SOURCE: JSJIIT]
+User: What is my current gpa ?
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 18:30:39] [SOURCE: API]
+User: What is my current gpa ?
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 18:54:13] [SOURCE: JSJIIT]
+User: What is my current gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 18:54:13] [SOURCE: API]
+User: What is my current gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 19:02:43] [SOURCE: JSJIIT]
+User: what is my current gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 19:02:43] [SOURCE: API]
+User: what is my current gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 19:09:26] [SOURCE: JSJIIT]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 19:09:26] [SOURCE: API]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:23:50] [SOURCE: JSJIIT]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:23:50] [SOURCE: API]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:25:34] [SOURCE: JSJIIT]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:25:34] [SOURCE: API]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:32:16] [SOURCE: JSJIIT]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:32:16] [SOURCE: API]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 10:46:26] [SOURCE: API]
+User: What is my gpa
+Bot: 🔐 Please log in to access this information.
+
+[2025-07-01 11:13:49] [SOURCE: API]
+User: What is my gpa
+Bot: 🔐 Please log in to access this information.
+
+[2025-07-01 11:26:10] [SOURCE: JSJIIT]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+
+[2025-07-01 11:26:10] [SOURCE: API]
+User: What is my gpa
+Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
+

@@ -6,4 +6,4 @@ ollama
 langchain-ollama
 duckduckgo_search
 httpx
-pyjiit
+pyjiit==0.1.0a7
