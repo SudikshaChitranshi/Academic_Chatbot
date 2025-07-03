@@ -1,8 +1,8 @@
 // ChatBox.jsx
 import React, { useState } from 'react';
-import LoginPopup from "./LoginPopup"; 
-import { useSession } from './useSession';
-import GPAChart from './GPAChart';
+import { useSession } from '../useSession';
+import Login from '../pages/Login';
+//import GPAChart from './GPAChart';
 
 
 function linkify(text) {
@@ -166,7 +166,7 @@ const handleLoginSubmit = async (creds) => {
       
       
         {showLoginPopup && (
-          <LoginPopup
+          <Login
           onSubmit={handleLoginSubmit}
           onClose={() => setShowLoginPopup(false)}
           />

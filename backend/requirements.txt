@@ -7,3 +7,7 @@ langchain-ollama
 duckduckgo_search
 httpx
 pyjiit==0.1.0a7
+pandas
+numpy
+scikit-learn
+scipy
