@@ -1,10 +1,7 @@
 from duckduckgo_search import DDGS
-from app.services.jiit_services import JIITService
-from app.jsjiit_integration import handle_jsjiit_queries
 from app.logger import log_response
 import os
 import json
-
 
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "data", "web_cache.json")
 os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
@@ -48,17 +45,6 @@ def get_tool_response(msg, intent,session=None):
     elif intent == "event_info":
         response = web_search_tool(f"JIIT events {msg}")
         log_response(msg, response, source="Web Tool")
-        return response
-
-    elif intent in ["attendance", "courses_registered", "fees_due", "student_marks", "student_gpa"]:
-        if not session or "enrollment" not in session:
-            return "🔒 Please login to access this information."
-        
-        creds = session
-        jiit_service = JIITService(creds["enrollment"], creds["password"])
-    
-        response = handle_jsjiit_queries(intent,jiit_service, msg, session=session)
-        log_response(msg, response, source="JSJIIT")
         return response
   
     elif intent in ["online_course_recommendation", "study_resource"]:

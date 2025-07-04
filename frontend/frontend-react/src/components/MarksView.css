@@ -1,0 +1,23 @@
+.cell {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.green {
+  background-color: #c8e6c9;
+  color: #256029;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: #fff9c4;
+  color: #7f6f00;
+  font-weight: bold;
+}
+
+.red {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+  font-weight: bold;
+}

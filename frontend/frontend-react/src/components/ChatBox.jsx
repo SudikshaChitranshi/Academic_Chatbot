@@ -115,11 +115,6 @@ const handleLoginSubmit = async (creds) => {
   <div style={styles.outer}>
     {/* Top Header */}
     <div style={styles.header}>
-      <img
-        src="/jiit-logo.png"
-        alt="JIIT Logo"
-        style={styles.logo}
-      />
       <h2 style={styles.title}>Academic Chatbot</h2>
     </div>
 

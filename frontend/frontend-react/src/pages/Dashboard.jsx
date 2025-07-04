@@ -22,9 +22,9 @@ export default function Dashboard() {
     <div className="dashboard-container">
       <aside className="sidebar">
         <h2>JIIT One</h2>
-        <button onClick={() => setActiveTab('chatbot')}>💬 Chatbot</button>
+        <button onClick={() => setActiveTab('chatbot')}>💬 Academic Chatbot</button>
         <button onClick={() => setActiveTab('electives')}>📘 Elective Recommendation</button>
-        <button onClick={() => setActiveTab('academic info')}>📊 Academic Info</button>
+        <button onClick={() => setActiveTab('academic info')}>📊 Performance Tracker</button>
       </aside>
 
       <main className="main-content">

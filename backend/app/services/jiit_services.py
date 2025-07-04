@@ -79,10 +79,6 @@ class JIITService:
                 print(f"⚠️ Error fetching attendance for {sem}: {e}")
         return all_data if all_data else "No attendance data available."
     
-    def get_fees(self):
-        return "No fees information available at the moment."
-    
-    
     def get_grade_card(self):
         semesters = self.portal.get_semesters_for_grade_card()
         if not semesters:

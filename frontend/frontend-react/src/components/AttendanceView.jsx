@@ -7,9 +7,16 @@ export default function AttendanceView() {
   const [selectedSem, setSelectedSem] = useState('');
   const [attendance, setAttendance] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [goal, setGoal] = useState(85); // default goal
 
-  // Fetch semester list on mount
+  const calculateClassesNeeded = (attended, total, goal) => {
+  const currentPercent = (attended / total) * 100;
+  if (currentPercent >= goal) return '✅ Goal met';
+  const required = Math.ceil((goal * total - 100 * attended) / (100 - goal));
+  return `➕ ${required} more`;
+};
+
+  // 1️⃣ Fetch available semesters
   useEffect(() => {
     const fetchSemesters = async () => {
       try {
@@ -22,17 +29,17 @@ export default function AttendanceView() {
         setSemesters(data);
         if (data.length > 0) setSelectedSem(data[0].registration_id);
       } catch (err) {
-        console.error(err);
-        setError('Failed to load semesters.');
+        console.error("Failed to load semesters:", err);
       }
     };
     fetchSemesters();
   }, [session]);
 
-  // Fetch attendance when a semester is selected
+  // 2️⃣ Fetch attendance when a semester is selected
   useEffect(() => {
+    if (!selectedSem) return;
+
     const fetchAttendance = async () => {
-      if (!selectedSem) return;
       setLoading(true);
       try {
         const res = await fetch('http://localhost:5000/api/attendance', {
@@ -43,12 +50,12 @@ export default function AttendanceView() {
         const data = await res.json();
         setAttendance(data);
       } catch (err) {
-        console.error(err);
-        setError('Failed to load attendance.');
+        console.error("Failed to fetch attendance:", err);
       } finally {
         setLoading(false);
       }
     };
+
     fetchAttendance();
   }, [selectedSem]);
 
@@ -69,28 +76,41 @@ export default function AttendanceView() {
           ))}
         </select>
       )}
+      
+      <div style={{ marginBottom: '1rem' }}>
+        🎯 Set Attendance Goal:
+        <input
+          type="number"
+          value={goal}
+          onChange={(e) => setGoal(Number(e.target.value))}
+          min={1}
+          max={100}
+          style={{ marginLeft: '10px', padding: '5px', width: '60px' }}
+        />
+        <span>%</span>
+      </div>
 
       {loading ? (
         <p>⏳ Loading attendance...</p>
-      ) : error ? (
-        <p style={{ color: 'red' }}>{error}</p>
-      ) : attendance.length > 0 ? (
+      ) : attendance.length ? (
         <table border="1" cellPadding="8">
           <thead>
             <tr>
               <th>Subject</th>
-              <th>Total Classes</th>
+              <th>Total</th>
               <th>Attended</th>
-              <th>Attendance %</th>
+              <th>Percent</th>
+              <th>🎯 To Reach {goal}%</th>
             </tr>
           </thead>
           <tbody>
-            {attendance.map((sub, i) => (
+            {attendance.map((row, i) => (
               <tr key={i}>
-                <td>{sub.subject}</td>
-                <td>{sub.total}</td>
-                <td>{sub.attended}</td>
-                <td>{sub.percent}%</td>
+                <td>{row.subject}</td>
+                <td>{row.total}</td>
+                <td>{row.attended}</td>
+                <td>{row.percent}%</td>
+                <td>{calculateClassesNeeded(row.attended, row.total, goal)}</td>
               </tr>
             ))}
           </tbody>

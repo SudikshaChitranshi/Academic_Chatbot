@@ -1,33 +1,46 @@
-import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, LineElement, PointElement } from 'chart.js';
-ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement);
+import React, { useEffect, useRef } from 'react';
+import {
+  Chart,
+  LineController,
+  LineElement,
+  PointElement,
+  LinearScale,
+  CategoryScale,
+  Legend,
+  Tooltip,
+  Title,
+} from 'chart.js';
 
-const GPAChart = ({ data }) => {
-  if (!data || !Array.isArray(data)) {
-  return <div>No chart data available.</div>;
-  }
+Chart.register(LineController, LineElement, PointElement, LinearScale, CategoryScale, Legend, Tooltip, Title);
 
-  const chartData = {
-    labels: data.map(d => `Sem ${d[0]}`),
-    datasets: [
-      {
-        label: 'SGPA',
-        data: data.map(d => d[1]),
-        borderColor: 'blue',
-        backgroundColor: 'blue',
-        fill: false,
-      },
-      {
-        label: 'CGPA',
-        data: data.map(d => d[2]),
-        borderColor: 'green',
-        backgroundColor: 'green',
-        fill: false,
+export default function GPAChart({ data }) {
+  const canvasRef = useRef(null);
+  const chartRef = useRef(null);
+
+  useEffect(() => {
+    if (chartRef.current) chartRef.current.destroy();
+
+    const ctx = canvasRef.current.getContext('2d');
+    chartRef.current = new Chart(ctx, {
+      type: 'line',
+      data,
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: true },
+        },
+        scales: {
+          y: {
+            suggestedMin: 4,
+            suggestedMax: 10,
+          }
+        }
       }
-    ]
-  };
+    });
 
-  return <Line data={chartData} />;
-};
+    return () => chartRef.current?.destroy();
+  }, [data]);
 
-export default GPAChart;
+  return <canvas ref={canvasRef} style={{ width: '100%', height: '300px' }} />;
+}

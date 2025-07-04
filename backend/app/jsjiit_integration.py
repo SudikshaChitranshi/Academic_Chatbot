@@ -62,9 +62,6 @@ def handle_jsjiit_queries(intent, jiit_service, user_query="",session=None):
                     )
 
         return "⚠️ No attendance data found for that subject."
-
-    elif intent == "fees_due":
-        return f"Your outstanding fee details: {jiit_service.get_fees()}"
     
     elif intent == "student_marks":
         if not session or "enrollment" not in session:

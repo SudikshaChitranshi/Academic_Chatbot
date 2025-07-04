@@ -11,3 +11,8 @@ pandas
 numpy
 scikit-learn
 scipy
+pymupdf
+//react-chartjs-2
+
+
+
