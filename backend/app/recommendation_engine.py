@@ -5,9 +5,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from scipy.sparse.linalg import svds
 
-def load_data(student_path, course_path):
+def load_data(student_path, courses_path):
     students = pd.read_csv(student_path)
-    courses = pd.read_csv(course_path)
+    courses = pd.read_csv(courses_path)
     return students, courses
 
 def preprocess_students(students):

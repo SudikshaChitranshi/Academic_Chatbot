@@ -1,0 +1,53 @@
+Course ID,Prerequisites,Credits,Difficulty,Name,Domain
+10B11PD511,Legal Knowledge,3,Medium,Social and Legal Issues,Cybersecurity
+10B11EC514,Basic Electronics,4,Medium,Communication Systems,IOT
+10B11CI511,Data Structures,4,Medium,Operating Systems,Cybersecurity
+10B11CI512,Software Design,4,Medium,Software Engineering,AI
+10B11CI513,Discrete Mathematics,4,Hard,Theory of Computation,AI
+10B17EC574,Communication Systems,1,Easy,Communication Systems Lab,IOT
+10B17CI571,Operating Systems,1,Easy,Operating Systems Lab,Cybersecurity
+10B17CI572,Software Engineering,1,Easy,Software Engineering Lab,AI
+10B28CI581,Web Basics,1,Easy,Web Technology Lab,Data Science
+10B19CI591,Core Programming,5,Medium,Minor Project I,AI
+10B11PD611,Basic Management Concepts,3,Medium,Project Management,AI
+10B11CI611,Operating Systems,4,Medium,Computer Networks,Cybersecurity
+10B11CI612,Theory of Computation,4,Hard,Compiler Design,AI
+10B11CI613,Computer Architecture,4,Medium,Computer Organisation and Architecture,Robotics
+10B11PH611,Basic Physics,4,Medium,Material Science,Robotics
+10B17CI671,Computer Networks,1,Easy,Computer Networks Lab,Cybersecurity
+10B17CI672,Compiler Design,1,Easy,Compiler Design Lab,AI
+10B17CI673,Operating Systems,2,Easy,System and Network Programming Lab,Cybersecurity
+10B19GE698,None,0,Easy,Industrial Training,AI
+10B19CI691,Minor Project I,5,Medium,Minor Project II,AI
+10B13PD831,None,3,Medium,Knowledge Management,Data Science
+14B1NCI833,Data Structures,3,Medium,Advanced Data Structure,ML
+11B1NCI831,Basic Computing,3,Medium,Distributed Computing,AI
+10B1NCI837,Basic ML,3,Medium,Natural Language Processing,AI
+10B19CI791,Minor Project II,10,Hard,Project Part I,AI
+10B13PD832,None,3,Medium,Quality Issues In Engineering,AI
+13B1NCI831,Data Structures,3,Medium,Multidimentional Data Structure,ML
+14B1NCI834,Basic Mobile Programming,3,Medium,Mobile Application Development,IOT
+13B1NCI832,Basic DBMS,3,Medium,Design of Database Systems,Data Science
+10B19CI891,Project Part I,10,Hard,Project Part II,AI
+13B11NHS731,English,3,Medium,Technology and Culture,AI
+10B1NPD733,Economics,3,Medium,Managing and Marketing Technology,Data Science
+10B1NPD735,Finance Basics,3,Medium,Indian Financial System,Data Science
+10B1NPD734,Marketing,3,Medium,Customer Relationship Management,Data Science
+10B1NPD732,Entrepreneurship Basics,3,Medium,Entrepreneurial Development,Data Science
+13B1NHS831,Psychology,3,Medium,Organizational Psychology,AI
+12B1NHS831,Sociology,3,Medium,Industrial Sociology,Ai
+10B1NCI731,Data Structures,3,Medium,Artificial Intelligence,AI
+10B1NCI733,Discrete Mathematics,3,Medium,Graph Algorithm and Applications,ML
+10B1NCI736,Database Systems,3,Medium,Information Retrieval and Data Mining,Data Science
+12B2NCI752,Operating Systems,3,Medium,Mobile Computing,IOT
+10B13CI834,Computer Architecture,3,Medium,Parallel Processing,AI
+13B1NCI834,Software Engineering,3,Medium,Software Construction,AI
+14B1NCI731,Embedded Systems Basics,3,Medium,Embedded Systems,Robotics
+10B2NCI853,Computer Networks,3,Medium,Cryptography & Network Security,Cybersecurity
+14B1NCI831,Algorithms,3,Medium,Design of Algorithms,ML
+10B1NCI831,Digital Image Basics,3,Medium,Image Processing,ML
+14B1NCI832,Automation Systems,3,Medium,Industrial Automation,Robotics
+14B1NCI835,System Analysis,3,Medium,Performance Analysis of Computing Systems,AI
+11B1NCI731,Soft Computing Basics,3,Medium,Soft Computing,AI
+10B1NCI835,System Programming Basics,3,Medium,System Programming,Cybersecurity
+13B1NCI831,Data Structures,3,Medium,Multidimensional Data Structure,ML

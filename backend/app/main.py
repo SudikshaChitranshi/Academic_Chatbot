@@ -7,8 +7,12 @@ from app.services.jiit_services import JIITService
 from pyjiit.exceptions import APIError
 from io import BytesIO
 import pymupdf
+import pandas as pd
 from app.MarksExtractor import parse_report
-from app.elective_api import get_recommendations_from_csv
+from app.recommendation_engine import (
+    load_data, preprocess_students,
+    build_interaction_matrix, train_svd_centered, recommend_courses
+)
 import time
 
 app = FastAPI()
@@ -54,22 +58,38 @@ async def chat_endpoint(req: Request):
 @app.post("/api/recommend")
 async def recommend(request: Request):
     data = await request.json()
-    # Expect fields: student_id, name, branch, semester, cgpa, preferences, taken_courses
-    student_data = {
-        "Student ID": data["student_id"],
-        "Name": data["name"],
-        "Branch": data["branch"],
-        "Semester": data["semester"],
-        "CGPA": data["cgpa"],
-        "Preferences": data["preferences"],
-        "Courses_taken_ids": ';'.join(data["taken_courses"]),
-        "Courses_taken": data["taken_courses"]
+    
+    student_id = data.get("student_id")
+    name = data.get("name")
+    branch = data.get("branch")
+    semester = data.get("semester")
+    cgpa = data.get("cgpa")
+    preferences = data.get("preferences")
+    taken_courses = data.get("taken_courses", [])
+    
+    students, courses = load_data("app/data/Student_data.csv", "app/data/Course_data.csv")
+    students = preprocess_students(students)
+
+    new_row = {
+        'Student ID': student_id,
+        'Name': name,
+        'Branch': branch,
+        'Semester': semester,
+        'Courses taken': len(taken_courses),
+        'CGPA': cgpa,
+        'Preferences': preferences,
+        'Courses_taken_ids': ';'.join(taken_courses),
+        'Courses_taken': taken_courses
     }
-    try:
-        result = get_recommendations_from_csv(student_data)
-        return { "recommendations": result }
-    except Exception as e:
-        return { "error": str(e) }
+
+    new_students = pd.concat([students, pd.DataFrame([new_row])], ignore_index=True)
+
+    interaction, student_idx_map, course_idx_map = build_interaction_matrix(new_students, courses)
+    train_idx = list(range(len(students)))
+    predicted_interaction = train_svd_centered(interaction, train_idx, k=20)
+
+    rec_courses = recommend_courses(student_id, new_students, courses, predicted_interaction, student_idx_map, course_idx_map)
+    return rec_courses.to_dict(orient="records")
     
 
 @app.post("/api/semesters/attendance")
