@@ -1,6 +1,6 @@
 .reco-container {
   max-width: 1000px;
-  height: 450px;
+  height: 480px;
   margin: 2rem auto;
   background: #f9fbff;
   padding: 2rem;
@@ -21,11 +21,21 @@
   gap: 1rem;
 }
 
-.form-group {
+.form-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 40px;
+  margin-bottom: 20px;
 }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  min-width: 200px;
+  flex: 1;
+}
+
 
 .reco-form input,
 .reco-form select {
@@ -73,4 +83,9 @@
 
 .recommendation-section th {
   background-color: #eaeaea;
+}
+
+label {
+  font-weight: 500;
+  font-size: 14px;
 }

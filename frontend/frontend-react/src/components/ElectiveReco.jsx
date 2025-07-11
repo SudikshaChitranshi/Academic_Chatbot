@@ -80,59 +80,90 @@ export default function ElectiveReco() {
     <div className="reco-container">
       <h2 className="reco-title">🎓 Elective Recommendation System</h2>
       <form className="reco-form" onSubmit={handleSubmit}>
-        <div className="form-group">
-          <input name="student_id" placeholder="Enrollment Number" required onChange={handleChange} />
-          <input name="name" placeholder="Name" required onChange={handleChange} />
-        </div>
+  <div className="form-row">
+    <div className="form-group">
+      <label>Enrollment Number</label>
+      <input
+        name="student_id"
+        placeholder="Enrollment Number"
+        required
+        onChange={handleChange}
+      />
+    </div>
 
-        <div className="form-group">
-          <select name="branch" value={form.branch} onChange={handleChange}>
-            <option value="CSE">CSE</option>
-            <option value="ECE">ECE</option>
-          </select>
+    <div className="form-group">
+      <label>Name</label>
+      <input
+        name="name"
+        placeholder="Name"
+        required
+        onChange={handleChange}
+      />
+    </div>
+  </div>
 
-          <input
-            name="semester"
-            type="number"
-            min="1"
-            max="8"
-            value={form.semester}
-            onChange={handleChange}
-            placeholder="Semester"
-          />
+  <div className="form-row">
+    <div className="form-group">
+      <label>Branch</label>
+      <select name="branch" value={form.branch} onChange={handleChange}>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+      </select>
+    </div>
 
-          <input
-            name="cgpa"
-            type="number"
-            step="0.1"
-            min="0"
-            max="10"
-            placeholder="CGPA"
-            onChange={handleChange}
-          />
-        </div>
+    <div className="form-group">
+      <label>Semester</label>
+      <input
+        name="semester"
+        type="number"
+        min="1"
+        max="8"
+        value={form.semester}
+        onChange={handleChange}
+        placeholder="Semester"
+      />
+    </div>
 
-        
-          <select name="preferences" value={form.preferences} onChange={handleChange}>
-            <option value="">Select Domain</option>
-            {domains.map((domain, i) => (
-              <option key={i} value={domain}>{domain}</option>
-            ))}
-          </select>
-        <div className="form-group">
-          <select multiple value={form.taken_courses} onChange={handleMultiSelect}>
-            {allCourseIDs.map((cid, i) => (
-              <option key={i} value={cid}>{cid}</option>
-            ))}
-          </select>
-        </div>
+    <div className="form-group">
+      <label>CGPA</label>
+      <input
+        name="cgpa"
+        type="number"
+        step="0.1"
+        min="0"
+        max="10"
+        placeholder="CGPA"
+        onChange={handleChange}
+      />
+    </div>
+  </div>
 
-        <button className="reco-button" type="submit" disabled={loading}>
-          {loading ? "Generating..." : "Get Recommendations"}
-        </button>
-      </form>
+  <div className="form-row">
+    <div className="form-group">
+      <label>Preference Domain</label>
+      <select name="preferences" value={form.preferences} onChange={handleChange}>
+        <option value="">Select Domain</option>
+        {domains.map((domain, i) => (
+          <option key={i} value={domain}>{domain}</option>
+        ))}
+      </select>
+    </div>
 
-      {recommendations && recommendations.length > 0 && (
+    <div className="form-group">
+      <label>Course Codes</label>
+      <select multiple value={form.taken_courses} onChange={handleMultiSelect}>
+        {allCourseIDs.map((cid, i) => (
+          <option key={i} value={cid}>{cid}</option>
+        ))}
+      </select>
+    </div>
+  </div>
+
+  <button className="reco-button" type="submit" disabled={loading}>
+    {loading ? "Generating..." : "Get Recommendations"}
+  </button>
+</form>
+   {recommendations && recommendations.length > 0 && (
         <div className="recommendation-section">
           <h3>✅ Recommended Courses</h3>
           <table>
@@ -157,6 +188,6 @@ export default function ElectiveReco() {
           </table>
         </div>
       )}
-    </div>
-  );
+</div>
+);
 }

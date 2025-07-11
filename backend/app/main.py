@@ -155,7 +155,6 @@ async def get_attendance_for_semester(req: Request):
     # Step 2: Get attendance
     try:
         attendance_data = jiit.portal.get_attendance(header, semester)
-        print(attendance_data)
         if not attendance_data.get("studentattendancelist"):
             return {"message": "⚠️ No attendance records found for this semester."}
     except APIError as e:

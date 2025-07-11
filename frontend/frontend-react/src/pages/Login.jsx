@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useSession } from '../useSession'; // ← use your custom hook
+import { useSession } from '../useSession'; 
 import './Login.css';
 
 export default function Login() {
@@ -8,7 +8,7 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  const { saveSession } = useSession(); // ← use it here directly
+  const { saveSession } = useSession(); 
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -20,8 +20,8 @@ export default function Login() {
     try {
       // You can make an API request here if needed
       // For now, just saving locally
-      saveSession({ enrollment, password }); // ← save session
-      navigate('/dashboard'); // ← redirect after login
+      saveSession({ enrollment, password }); 
+      navigate('/dashboard'); 
     } catch (err) {
       console.error(err);
       setError("Login failed.");
@@ -29,24 +29,31 @@ export default function Login() {
   };
 
   return (
-    <div className="login-container">
-      <h2>Student Login</h2>
-      <form onSubmit={handleLogin}>
-        <input
+    <div className="body">
+      <div className="login-container">
+        <img
+          src="/jiit-logo.png" 
+          alt="JIIT" width="100" height="120" 
+        />
+        <h1>Welcome to JIIT One</h1>
+        <h2>Student Login</h2>
+        <form onSubmit={handleLogin}>
+          <input
           type="text"
           placeholder="Enrollment Number"
           value={enrollment}
           onChange={(e) => setEnrollment(e.target.value)}
-        />
-        <input
+          />
+          <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-        />
-        <button type="submit">Login</button>
-        {error && <p className="error">{error}</p>}
-      </form>
-    </div>
+          />
+          <button type="submit">Login</button>
+          {error && <p className="error">{error}</p>}
+        </form>
+     </div>
+   </div>  
   );
 }

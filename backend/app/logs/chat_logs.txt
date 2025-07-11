@@ -1046,3 +1046,92 @@ Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n�
 User: What is my current gpa ?
 Bot: ('➖ Semester 4: CGPA unchanged\n📈 Semester 5: CGPA improved by 0.1\n➖ Semester 6: CGPA unchanged', {'graph_data': [(3, 6.6, 6.6), (4, 6.5, 6.6), (5, 7, 6.7), (6, 6.8, 6.7)]})
 
+[2025-07-05 11:21:13] [SOURCE: LLM]
+User: Hi
+Bot: Hello! Welcome to our assistant system. How can I assist you today? Are you a student at Jaypee Institute of Information Technology (JIIT)? What do you need help with? Do you have a question about academics, faculty details, or something else?
+
+[2025-07-05 11:21:13] [SOURCE: API]
+User: Hi
+Bot: Hello! Welcome to our assistant system. How can I assist you today? Are you a student at Jaypee Institute of Information Technology (JIIT)? What do you need help with? Do you have a question about academics, faculty details, or something else?
+
+[2025-07-05 11:30:39] [SOURCE: LLM]
+User: Hi
+Bot: Hello! I'm here to assist you with any queries related to Jaypee Institute of Information Technology (JIIT), Noida. What can I help you with today? Are you a student looking for information about your academic schedule, course registration, or perhaps faculty details? Or is there something else on your mind?
+
+[2025-07-05 11:30:39] [SOURCE: API]
+User: Hi
+Bot: Hello! I'm here to assist you with any queries related to Jaypee Institute of Information Technology (JIIT), Noida. What can I help you with today? Are you a student looking for information about your academic schedule, course registration, or perhaps faculty details? Or is there something else on your mind?
+
+[2025-07-05 11:37:03] [SOURCE: LLM]
+User: Hi
+Bot: Hello! Welcome to our assistant system. I'm here to help you with any queries related to Jaypee Institute of Information Technology (JIIT), Noida. What can I assist you with today? Are you a student looking for information about your course, faculty member seeking contact details, or perhaps something else?
+
+[2025-07-05 11:37:03] [SOURCE: API]
+User: Hi
+Bot: Hello! Welcome to our assistant system. I'm here to help you with any queries related to Jaypee Institute of Information Technology (JIIT), Noida. What can I assist you with today? Are you a student looking for information about your course, faculty member seeking contact details, or perhaps something else?
+
+[2025-07-05 11:46:31] [SOURCE: LLM]
+User: Hi
+Bot: Hello! Welcome to our assistant system. I'm here to help you with any queries related to Jaypee Institute of Information Technology (JIIT), Noida. How can I assist you today? Are you a student looking for information on academic schedules, faculty contact details, or perhaps something else?
+
+[2025-07-05 11:46:31] [SOURCE: API]
+User: Hi
+Bot: Hello! Welcome to our assistant system. I'm here to help you with any queries related to Jaypee Institute of Information Technology (JIIT), Noida. How can I assist you today? Are you a student looking for information on academic schedules, faculty contact details, or perhaps something else?
+
+[2025-07-11 07:42:51] [SOURCE: Web Tool]
+User: What is the email id of Dr Kashav Ajmera
+Bot: 🔍 Web search failed due to rate limit. Try again later.
+Details: https://html.duckduckgo.com/html 202 Ratelimit
+
+[2025-07-11 07:42:51] [SOURCE: Web Tool]
+User: What is the email id of Dr Kashav Ajmera
+Bot: 🔍 Web search failed due to rate limit. Try again later.
+Details: https://html.duckduckgo.com/html 202 Ratelimit
+
+[2025-07-11 07:42:51] [SOURCE: API]
+User: What is the email id of Dr Kashav Ajmera
+Bot: 🔍 Web search failed due to rate limit. Try again later.
+Details: https://html.duckduckgo.com/html 202 Ratelimit
+
+[2025-07-11 08:58:55] [SOURCE: LLM]
+User: What topics to study for Operating Systems
+Bot: For Operating Systems, here are some key topics you should focus on:
+
+1. **Process Management**: Understanding process creation, synchronization, communication, and termination.
+2. **Memory Management**: Studying memory allocation, deallocation, paging, segmentation, and virtual memory.
+3. **File Systems**: Learning about file organization, file systems (e.g., FAT, NTFS), file management, and file security.
+4. **Concurrency Control**: Understanding concepts like locking, transactional models, concurrency control mechanisms, and deadlocks.
+5. **Scheduling Algorithms**: Familiarizing yourself with FCFS, SJF, Priority Scheduling, Round Robin, and other algorithms used in OS scheduling.
+6. **Memory Protection**: Studying memory protection techniques like virtual memory, segmentation, and paging.
+7. **I/O Management**: Understanding I/O devices, I/O models (e.g., disk-based vs. network-based), and I/O management strategies.
+8. **Security and Access Control**: Learning about security measures in OS, access control mechanisms, and threat analysis.
+
+Make sure to refer to your course materials, textbook, and online resources like JIIT's own learning management system or online lecture notes for more detailed information.
+
+Additionally, practice problems and past year exam questions will help you grasp these concepts better. Good luck with your Operating Systems studies!
+
+[2025-07-11 08:58:55] [SOURCE: API]
+User: What topics to study for Operating Systems
+Bot: For Operating Systems, here are some key topics you should focus on:
+
+1. **Process Management**: Understanding process creation, synchronization, communication, and termination.
+2. **Memory Management**: Studying memory allocation, deallocation, paging, segmentation, and virtual memory.
+3. **File Systems**: Learning about file organization, file systems (e.g., FAT, NTFS), file management, and file security.
+4. **Concurrency Control**: Understanding concepts like locking, transactional models, concurrency control mechanisms, and deadlocks.
+5. **Scheduling Algorithms**: Familiarizing yourself with FCFS, SJF, Priority Scheduling, Round Robin, and other algorithms used in OS scheduling.
+6. **Memory Protection**: Studying memory protection techniques like virtual memory, segmentation, and paging.
+7. **I/O Management**: Understanding I/O devices, I/O models (e.g., disk-based vs. network-based), and I/O management strategies.
+8. **Security and Access Control**: Learning about security measures in OS, access control mechanisms, and threat analysis.
+
+Make sure to refer to your course materials, textbook, and online resources like JIIT's own learning management system or online lecture notes for more detailed information.
+
+Additionally, practice problems and past year exam questions will help you grasp these concepts better. Good luck with your Operating Systems studies!
+
+[2025-07-11 10:21:23] [SOURCE: LLM]
+User: Hi
+Bot: Hello! Welcome to your personal assistant. How can I assist you today? Are you a student at JIIT looking for information on academics, faculty details, or anything else related to the institute?
+
+[2025-07-11 10:21:23] [SOURCE: API]
+User: Hi
+Bot: Hello! Welcome to your personal assistant. How can I assist you today? Are you a student at JIIT looking for information on academics, faculty details, or anything else related to the institute?
+

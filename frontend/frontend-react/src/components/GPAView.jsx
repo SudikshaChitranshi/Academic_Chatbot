@@ -84,6 +84,7 @@ export default function GPAView() {
               ))}
             </tbody>
           </table>
+        <p style={{ whiteSpace: 'pre-wrap', marginBottom: '1rem' }}>{gpaData.reply}</p>
         </div>
       </div>
     </div>

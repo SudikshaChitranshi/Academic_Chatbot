@@ -1,4 +1,5 @@
 from duckduckgo_search import DDGS
+from duckduckgo_search.exceptions import DuckDuckGoSearchException
 from app.logger import log_response
 import os
 import json
@@ -20,16 +21,15 @@ def save_cache():
 def web_search_tool(query):
     if query in web_cache:
         return f"🔁 (Cached)\n{web_cache[query]}"
-
-    with DDGS() as ddgs:
-        results = ddgs.text(query, max_results=2)
-        if not results:
-            return "No relevant information found on the web."
-
+    try:
+        results = DDGS().text(keywords=query, max_results=2)
         formatted = "\n".join([f"- {r['title']}: {r['href']}" for r in results])
         web_cache[query] = formatted
         save_cache()
         return formatted
+    except DuckDuckGoSearchException as e:
+        return f"🔍 Web search failed due to rate limit. Try again later.\nDetails: {e}"
+
 
 def get_tool_response(msg, intent,session=None):
     if intent == "faculty_info":
