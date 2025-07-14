@@ -139,7 +139,7 @@ export default function ElectiveReco() {
   </div>
 
   <div className="form-row">
-    <div className="form-group">
+    <div className="form-grp">
       <label>Preference Domain</label>
       <select name="preferences" value={form.preferences} onChange={handleChange}>
         <option value="">Select Domain</option>
@@ -149,7 +149,7 @@ export default function ElectiveReco() {
       </select>
     </div>
 
-    <div className="form-group">
+    <div className="form-grp">
       <label>Course Codes</label>
       <select multiple value={form.taken_courses} onChange={handleMultiSelect}>
         {allCourseIDs.map((cid, i) => (

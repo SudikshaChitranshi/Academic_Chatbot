@@ -1135,3 +1135,207 @@ Bot: Hello! Welcome to your personal assistant. How can I assist you today? Are 
 User: Hi
 Bot: Hello! Welcome to your personal assistant. How can I assist you today? Are you a student at JIIT looking for information on academics, faculty details, or anything else related to the institute?
 
+[2025-07-11 22:59:57] [SOURCE: LLM]
+User: Hi
+Bot: Hello! I'm your helpful assistant. How can I assist you today? Are you a student at Jaypee Institute of Information Technology (JIIT), Noida? Do you have any specific queries or need help with something related to the institute?
+
+[2025-07-11 22:59:57] [SOURCE: API]
+User: Hi
+Bot: Hello! I'm your helpful assistant. How can I assist you today? Are you a student at Jaypee Institute of Information Technology (JIIT), Noida? Do you have any specific queries or need help with something related to the institute?
+
+[2025-07-14 12:53:00] [SOURCE: LLM]
+User: Hi
+Bot: Hello! I'm here to help you with any queries you have about Jaypee Institute of Information Technology (JIIT), Noida. What can I assist you with today? Are you looking for information on academics, faculty details, student portal data, or something else?
+
+[2025-07-14 12:53:00] [SOURCE: API]
+User: Hi
+Bot: Hello! I'm here to help you with any queries you have about Jaypee Institute of Information Technology (JIIT), Noida. What can I assist you with today? Are you looking for information on academics, faculty details, student portal data, or something else?
+
+[2025-07-14 12:53:46] [SOURCE: LLM]
+User: What is FCFS
+Bot: FCFS stands for First Come First Served. It's a policy used by various departments at JIIT for course registration and other events. Under this policy, students who register first on a specific course or event are given priority over others.
+
+If you're looking for more information about FCFS in the context of JIIT, I'd be happy to try and help further!
+
+[2025-07-14 12:53:46] [SOURCE: API]
+User: What is FCFS
+Bot: FCFS stands for First Come First Served. It's a policy used by various departments at JIIT for course registration and other events. Under this policy, students who register first on a specific course or event are given priority over others.
+
+If you're looking for more information about FCFS in the context of JIIT, I'd be happy to try and help further!
+
+[2025-07-14 13:12:23] [SOURCE: Knowledge Base]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 13:12:23] [SOURCE: API]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 13:52:16] [SOURCE: LLM]
+User: What is FCFS
+Bot: A question outside of JIIT!
+
+FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in computer science and operating systems to allocate resources or time slots based on the order of requests or tasks. In simple terms, it gives priority to those who arrive first.
+
+If you're looking for information on FCFS in relation to JIIT, I'd be happy to help with any academic or technical aspects. However, if you could rephrase your question or provide more context, I might be able to assist better.
+
+Would you like to know about FCFS in the context of operating systems, computer science, or perhaps something else?
+
+[2025-07-14 13:52:16] [SOURCE: API]
+User: What is FCFS
+Bot: A question outside of JIIT!
+
+FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in computer science and operating systems to allocate resources or time slots based on the order of requests or tasks. In simple terms, it gives priority to those who arrive first.
+
+If you're looking for information on FCFS in relation to JIIT, I'd be happy to help with any academic or technical aspects. However, if you could rephrase your question or provide more context, I might be able to assist better.
+
+Would you like to know about FCFS in the context of operating systems, computer science, or perhaps something else?
+
+[2025-07-14 13:55:13] [SOURCE: LLM]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in computer science and operating systems, where the process with the earliest arrival time gets served first. This means that the order of service is determined by the order in which the processes arrive at the system.
+
+In FCFS, the operating system allocates resources to each process based on its arrival time, without considering any priority or scheduling criteria. It's a simple and straightforward algorithm but can also lead to high waiting times for longer-running processes due to the lack of priority consideration.
+
+Does that help clarify what FCFS is?
+
+[2025-07-14 13:55:13] [SOURCE: API]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in computer science and operating systems, where the process with the earliest arrival time gets served first. This means that the order of service is determined by the order in which the processes arrive at the system.
+
+In FCFS, the operating system allocates resources to each process based on its arrival time, without considering any priority or scheduling criteria. It's a simple and straightforward algorithm but can also lead to high waiting times for longer-running processes due to the lack of priority consideration.
+
+Does that help clarify what FCFS is?
+
+[2025-07-14 14:19:55] [SOURCE: LLM]
+User: hi
+Bot: Hello! I'm here to assist you with any questions or concerns related to Jaypee Institute of Information Technology (JIIT) and academic-related topics. How can I help you today? Are you a current student, looking for information about a specific course, faculty, or event? Or perhaps you're seeking general guidance on academics or campus life?
+
+[2025-07-14 14:19:55] [SOURCE: API]
+User: hi
+Bot: Hello! I'm here to assist you with any questions or concerns related to Jaypee Institute of Information Technology (JIIT) and academic-related topics. How can I help you today? Are you a current student, looking for information about a specific course, faculty, or event? Or perhaps you're seeking general guidance on academics or campus life?
+
+[2025-07-14 14:20:53] [SOURCE: Knowledge Base]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 14:20:53] [SOURCE: API]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 14:21:15] [SOURCE: LLM]
+User: What is FCFS
+Bot: In computer science and programming, FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in operating systems where the process with the earliest arrival time is executed first.
+
+In this algorithm, when multiple processes are waiting to be executed, the one that arrived first in the ready queue gets priority over others. The process remains in the ready queue until it is scheduled for execution by the scheduler.
+
+Is there anything specific you'd like to know about FCFS or scheduling algorithms?
+
+[2025-07-14 14:21:15] [SOURCE: API]
+User: What is FCFS
+Bot: In computer science and programming, FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in operating systems where the process with the earliest arrival time is executed first.
+
+In this algorithm, when multiple processes are waiting to be executed, the one that arrived first in the ready queue gets priority over others. The process remains in the ready queue until it is scheduled for execution by the scheduler.
+
+Is there anything specific you'd like to know about FCFS or scheduling algorithms?
+
+[2025-07-14 14:28:02] [SOURCE: LLM]
+User: hi
+Bot: Hello! Welcome to our AI assistant for JIIT students. I'm here to help you with any questions, concerns, or information you need about JIIT academics, faculty, deadlines, events, clubs, and more. What can I assist you with today?
+
+[2025-07-14 14:28:02] [SOURCE: API]
+User: hi
+Bot: Hello! Welcome to our AI assistant for JIIT students. I'm here to help you with any questions, concerns, or information you need about JIIT academics, faculty, deadlines, events, clubs, and more. What can I assist you with today?
+
+[2025-07-14 14:28:20] [SOURCE: Knowledge Base]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 14:28:20] [SOURCE: API]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 14:28:54] [SOURCE: LLM]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's an algorithm used in many operating systems and computer programs to manage resources, prioritize tasks, and handle requests.
+
+In the context of computer science, FCFS is often used as a scheduling algorithm, where the first process or task that arrives is executed first, regardless of its priority. This approach can lead to resource starvation if high-priority tasks are delayed due to lower-priority tasks being scheduled ahead of them.
+
+Is there anything else you'd like to know about FCFS or would you like some examples on how it's used in real-world applications?
+
+[2025-07-14 14:28:54] [SOURCE: API]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's an algorithm used in many operating systems and computer programs to manage resources, prioritize tasks, and handle requests.
+
+In the context of computer science, FCFS is often used as a scheduling algorithm, where the first process or task that arrives is executed first, regardless of its priority. This approach can lead to resource starvation if high-priority tasks are delayed due to lower-priority tasks being scheduled ahead of them.
+
+Is there anything else you'd like to know about FCFS or would you like some examples on how it's used in real-world applications?
+
+[2025-07-14 14:41:21] [SOURCE: LLM]
+User: hi
+Bot: Hi! I'm here to help you with any questions related to Jaypee Institute of Information Technology (JIIT) or academic topics. How can I assist you today? Do you have a specific query about JIIT, your course, or something else?
+
+[2025-07-14 14:41:21] [SOURCE: API]
+User: hi
+Bot: Hi! I'm here to help you with any questions related to Jaypee Institute of Information Technology (JIIT) or academic topics. How can I assist you today? Do you have a specific query about JIIT, your course, or something else?
+
+[2025-07-14 14:48:54] [SOURCE: LLM]
+User: hi
+Bot: Hello! Welcome to the JIIT AI assistant. How can I assist you today? Are you a student at JIIT, looking for information about academics, faculty, deadlines, events, or campus life? Or do you have a general question that doesn't relate to JIIT specifically?
+
+[2025-07-14 14:48:54] [SOURCE: API]
+User: hi
+Bot: Hello! Welcome to the JIIT AI assistant. How can I assist you today? Are you a student at JIIT, looking for information about academics, faculty, deadlines, events, or campus life? Or do you have a general question that doesn't relate to JIIT specifically?
+
+[2025-07-14 14:49:14] [SOURCE: Knowledge Base]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 14:49:14] [SOURCE: API]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 14:49:50] [SOURCE: LLM]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's an algorithm used in computer science and programming, particularly in operating systems. In FCFS scheduling, the operating system executes tasks in the order they arrive at the ready queue.
+
+For example, if a process A arrives first and then process B arrives, both processes will be executed one after the other, in that order, until either one is completed or interrupted.
+
+FCFS has some limitations, such as poor performance for CPU-bound tasks, but it's simple to implement and understand.
+
+[2025-07-14 14:49:50] [SOURCE: API]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's an algorithm used in computer science and programming, particularly in operating systems. In FCFS scheduling, the operating system executes tasks in the order they arrive at the ready queue.
+
+For example, if a process A arrives first and then process B arrives, both processes will be executed one after the other, in that order, until either one is completed or interrupted.
+
+FCFS has some limitations, such as poor performance for CPU-bound tasks, but it's simple to implement and understand.
+
+[2025-07-14 15:10:33] [SOURCE: LLM]
+User: hi
+Bot: Hello! I'm here to help you with any questions or concerns related to Jaypee Institute of Information Technology (JIIT) and its academic programs. What can I assist you with today?
+
+[2025-07-14 15:10:33] [SOURCE: API]
+User: hi
+Bot: Hello! I'm here to help you with any questions or concerns related to Jaypee Institute of Information Technology (JIIT) and its academic programs. What can I assist you with today?
+
+[2025-07-14 15:10:59] [SOURCE: Knowledge Base]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 15:10:59] [SOURCE: API]
+User: Where is cafeteria
+Bot: The cafeteria is located in ABB3, ground floor.
+
+[2025-07-14 15:11:27] [SOURCE: LLM]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in operating systems where the first process that arrives at the ready queue gets executed first, until all processes have been completed.
+
+In other words, if multiple processes are waiting to be executed and they arrive at the same time, the one with the highest priority (or the one that arrived first) will be executed first.
+
+[2025-07-14 15:11:27] [SOURCE: API]
+User: What is FCFS
+Bot: FCFS stands for First-Come-First-Served. It's a scheduling algorithm used in operating systems where the first process that arrives at the ready queue gets executed first, until all processes have been completed.
+
+In other words, if multiple processes are waiting to be executed and they arrive at the same time, the one with the highest priority (or the one that arrived first) will be executed first.
+

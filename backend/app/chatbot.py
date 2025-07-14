@@ -4,22 +4,23 @@ from langchain_ollama import OllamaLLM
 from app.intents import detect_intent
 from app.tools import get_tool_response
 from app.logger import log_response
+from app.knowledge import get_knowledge_response
 
 # Load LLM
 llm = OllamaLLM(model="llama3.2:3b")
 
 # JIIT-specific system prompt
 jiit_system_prompt = """
-You are a helpful assistant built specifically for students of Jaypee Institute of Information Technology (JIIT), Noida.
-All questions are about JIIT unless explicitly stated otherwise.
+You are a helpful AI assistant for students at Jaypee Institute of Information Technology (JIIT), Noida.
 
-You can answer queries about:
-- JIIT faculty details (email, phone, cabin)
-- Academic deadlines, events, subjects, clubs
-- Student portal data like GPA, course registrations,attendance or fees
+You specialize in answering questions related to:
+- JIIT academics, faculty, deadlines, events, clubs, etc.
+- Common academic topics such as computer science, engineering, management, and campus life.
 
-If something isn't found, politely suggest checking the official JIIT portal.
-"""
+Always prioritize giving direct and informative answers. If a question is about JIIT, respond with JIIT-specific information. If it is a general academic or technical query, answer it directly without assuming it must relate to JIIT.
+
+Avoid suggesting that a question is outside your scope unless it is unrelated to academics or student life.
+# """
 
 # Prompt template
 prompt = ChatPromptTemplate.from_messages([
@@ -38,11 +39,17 @@ def get_bot_response(message: str,session=None):
         tool_reply = get_tool_response(message, intent, session)
         log_response(message, tool_reply, source="Web Tool")
         return tool_reply, intent  
+    
+    # 2. Search knowledge.json first
+    kb_reply = get_knowledge_response(message)
+    if kb_reply:
+        log_response(message, kb_reply, source="Knowledge Base")
+        return kb_reply, intent
 
-    # 2. LLM response
+
+    # 3. Fallback LLM response
     try:
         llm_reply = chain.invoke({"input": message})
-        print("LLM reply:", llm_reply)
         log_response(message, llm_reply, source="LLM")
         return str(llm_reply), intent
     except Exception as e:

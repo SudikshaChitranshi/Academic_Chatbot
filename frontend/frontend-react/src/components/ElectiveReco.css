@@ -36,6 +36,13 @@
   flex: 1;
 }
 
+.form-grp {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  min-width: 400px;
+  flex: 1;
+}
 
 .reco-form input,
 .reco-form select {

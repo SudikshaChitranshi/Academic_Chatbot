@@ -1,0 +1,342 @@
+[
+  {
+    "question": "Where is the cafeteria?",
+    "answer": "The cafeteria is located in ABB3, ground floor."
+  },
+  {
+    "question": "How do I register for classes?",
+    "answer": "To register for classes at JIIT, log in to the student portal, navigate to the 'Course Registration' section, select your desired courses, and submit your choices during the registration period. Contact the registrar's office at registrar@jiit.ac.in for assistance."
+  },
+  {
+    "question": "What are the library hours?",
+    "answer": "The JIIT library is open from 9:00 AM to 9:00 PM on weekdays and 10:00 AM to 5:00 PM on weekends. Check the official JIIT website for holiday schedules or extended hours during exams."
+  },
+  {
+    "question": "How do I contact the registrar?",
+    "answer": "You can contact the registrar's office at registrar@jiit.ac.in or visit them in Block A, Room 102 in ABB3."
+  },
+  {
+    "question": "Where is the library?",
+    "answer": "The library is located in the basement of Academic Block 3 (ABB3)."
+  },
+  {
+    "question": "Where is the registrar's office?",
+    "answer": "The registrar's office is in Block A, Room 102 in ABB3."
+  },
+  {
+    "question": "Where is the financial aid office?",
+    "answer": "The financial aid office is located in Block A, Room 105 in ABB3."
+  },
+  {
+    "question": "What are the operating hours for the bookstore?",
+    "answer": "The JIIT bookstore is open from 10:00 AM to 6:00 PM, Monday to Saturday."
+  },
+  {
+    "question": "What are the operating hours for the cafeteria?",
+    "answer": "The JIIT cafeteria in ABB1 is open from 8:00 AM to 8:00 PM daily."
+  },
+  {
+    "question": "What are the operating hours for the gym?",
+    "answer": "The JIIT gym is open from 6:00 AM to 9:00 PM daily, with restricted hours for non-residents during weekends (8:00 AM to 6:00 PM)."
+  },
+  {
+    "question": "How do I find a specific building or room?",
+    "answer": "Use the campus map available on the JIIT website or at the main entrance information desk. You can also ask for directions at the registrar's office in Block A."
+  },
+  {
+    "question": "Is there a campus map available?",
+    "answer": "Currently there is no campus map is available on the JIIT website but you can at the information desk near the main entrance for any directions."
+  },
+  {
+    "question": "What's the phone number for the admissions office?",
+    "answer": "The JIIT admissions office can be reached at +91-120-2594300 or via email at admissions@jiit.ac.in."
+  },
+  {
+    "question": "How can I contact my academic advisor?",
+    "answer": "Contact your academic advisor through the student portal or email the academic office at academics@jiit.ac.in to get your advisor's contact details."
+  },
+  {
+    "question": "Who should I talk to about financial aid questions?",
+    "answer": "Contact the financial aid office at financialaid@jiit.ac.in or visit Block A, Room 105 in ABB3."
+  },
+  {
+    "question": "What's the academic calendar for this year?",
+    "answer": "The academic calendar is available on the JIIT website under the 'Academics' section, detailing semester start/end dates, holidays, and exam schedules."
+  },
+  {
+    "question": "How do I apply for a leave of absence?",
+    "answer": "Submit a leave of absence application through the student portal or contact the registrar's office at registrar@jiit.ac.in for the required forms and procedure."
+  },
+  {
+    "question": "What's the policy on academic honesty?",
+    "answer": "JIIT's academic honesty policy prohibits plagiarism, cheating, and unauthorized collaboration. Violations may result in disciplinary action. Details are available in the student handbook on the JIIT website."
+  },
+  {
+    "question": "Where can I find information about student conduct?",
+    "answer": "Information on student conduct is available in the JIIT student handbook, accessible via the student portal or the 'Student Life' section of the JIIT website."
+  },
+  {
+    "question": "How do I apply to JIIT?",
+    "answer": "Apply to JIIT through the online application portal on the JIIT website. Submit required documents, including academic transcripts and entrance exam scores (if applicable)."
+  },
+  {
+    "question": "What are the admission requirements for undergraduate programs?",
+    "answer": "Undergraduate admission to JIIT requires 10+2 completion with minimum marks (varies by program), JEE Main scores (for engineering), and other criteria listed on the JIIT admissions page."
+  },
+  {
+    "question": "What are the admission requirements for graduate programs?",
+    "answer": "Graduate admission to JIIT requires a bachelor’s degree in a relevant field, minimum CGPA (varies by program), GATE scores (for M.Tech), and other criteria listed on the JIIT website."
+  },
+  {
+    "question": "When is the application deadline for Fall/Spring semester?",
+    "answer": "Application deadlines for Fall (July) and Spring (January) semesters are posted on the JIIT admissions page, typically May for Fall and November for Spring."
+  },
+  {
+    "question": "What scholarships are available for new students?",
+    "answer": "JIIT offers merit-based and need-based scholarships. Details and eligibility criteria are available on the JIIT website under 'Financial Aid.'"
+  },
+  {
+    "question": "Can I schedule a campus tour?",
+    "answer": "Yes, schedule a campus tour by contacting the admissions office at admissions@jiit.ac.in or through the JIIT website."
+  },
+  {
+    "question": "What programs/majors do you offer?",
+    "answer": "JIIT offers programs in engineering, management, computer science, biotechnology, and more. A full list is available on the JIIT website under 'Academics.'"
+  },
+  {
+    "question": "How do I check my application status?",
+    "answer": "Check your application status by logging into the JIIT application portal or emailing admissions@jiit.ac.in."
+  },
+  {
+    "question": "What's the last day to add/drop a class?",
+    "answer": "The last day to add/drop a class is typically two weeks after the semester starts. Check the academic calendar on the JIIT website for exact dates."
+  },
+  {
+    "question": "How do I withdraw from a course?",
+    "answer": "Submit a course withdrawal form through the student portal or contact the registrar’s office at registrar@jiit.ac.in."
+  },
+  {
+    "question": "Where can I find information about transfer credits?",
+    "answer": "Information on transfer credits is available through the registrar’s office (registrar@jiit.ac.in) or the JIIT website under 'Academics.'"
+  },
+  {
+    "question": "How do I change my major?",
+    "answer": "To change your major, submit a request to the registrar's office and consult your academic advisor. Contact academics@jiit.ac.in for guidance."
+  },
+  {
+    "question": "What courses are offered in [department/semester]?",
+    "answer": "Course offerings for each department and semester are listed on the JIIT website under 'Academics' or in the student portal."
+  },
+  {
+    "question": "What are the prerequisites for [course name]?",
+    "answer": "Prerequisites for specific courses are listed in the course catalog on the JIIT website or student portal. Contact academics@jiit.ac.in for details."
+  },
+  {
+    "question": "Can you tell me about the [program name] curriculum?",
+    "answer": "The curriculum for each program is detailed on the JIIT website under 'Academics' or in the program handbook available via the student portal."
+  },
+  {
+    "question": "Where can I find course syllabi?",
+    "answer": "Course syllabi can be known by contacting the respective department's faculty."
+  },
+  {
+    "question": "How do I schedule an appointment with my advisor?",
+    "answer": "Schedule an appointment with your advisor by emailing academics@jiit.ac.in."
+  },
+  {
+    "question": "What are the advising hours?",
+    "answer": "Advising hours vary by department but are typically 10:00 AM to 4:00 PM, Monday to Friday. Check with your advisor or academics@jiit.ac.in."
+  },
+  {
+    "question": "Can you help me plan my course schedule?",
+    "answer": "Contact your academic advisor through the student portal or academics@jiit.ac.in to plan your course schedule."
+  },
+  {
+    "question": "Where can I find tutoring for [subject]?",
+    "answer": "Tutoring services for various subjects are available through the academic support center in ABB1, Room 204. Check the JIIT website for schedules."
+  },
+  {
+    "question": "What academic support services does the institution offer?",
+    "answer": "JIIT offers tutoring, writing support, and academic workshops through the academic support center. Details are on the JIIT website."
+  },
+  {
+    "question": "How do I access online learning resources?",
+    "answer": "Access online learning resources through the 'LRC' under Resources Section on the JIIT website."
+  },
+  {
+    "question": "How do I apply for FAFSA/financial aid?",
+    "answer": "JIIT does not use FAFSA, but you can apply for financial aid through the JIIT financial aid office. Visit financialaid@jiit.ac.in for details."
+  },
+  {
+    "question": "What types of financial aid are available?",
+    "answer": "JIIT offers scholarships, grants, and loans. Details are available on the JIIT website under 'Financial Aid.'"
+  },
+  {
+    "question": "When will my financial aid disburse?",
+    "answer": "Financial aid typically disburses at the start of the semester. Contact financialaid@jiit.ac.in for specific dates."
+  },
+  {
+    "question": "How do I appeal a financial aid decision?",
+    "answer": "Submit an appeal to the financial aid office at financialaid@jiit.ac.in with supporting documents."
+  },
+  {
+    "question": "What are the requirements to maintain my scholarship?",
+    "answer": "Scholarship requirements vary but typically include maintaining a minimum CGPA and full-time enrollment. Check details on the JIIT website."
+  },
+  {
+    "question": "How do I pay my tuition bill?",
+    "answer": "Pay your tuition bill online through the JIIT student portal or at the accounts office in ABB3."
+  },
+  {
+    "question": "When is the tuition due date?",
+    "answer": "Tuition due dates are listed in the academic calendar on the JIIT website, typically one month after the semester starts."
+  },
+  {
+    "question": "Can I set up a payment plan?",
+    "answer": "Yes, payment plans are available. Contact the accounts office at accounts@jiit.ac.in for details."
+  },
+  {
+    "question": "Where can I view my billing statement?",
+    "answer": "View your billing statement on the JIIT student portal under 'Accounts.'"
+  },
+  {
+    "question": "Who do I contact about a billing error?",
+    "answer": "Contact the accounts office at accounts@jiit.ac.in or visit Block A, Room 104."
+  },
+  {
+    "question": "How do I join a student club?",
+    "answer": "Join a student club by contacting the student affairs office at studentaffairs@jiit.ac.in or attending the club fair at the start of the semester."
+  },
+  {
+    "question": "What student organizations are available?",
+    "answer": "JIIT offers technical, cultural, and sports clubs. A full list is available on the JIIT website under 'Student Life.'"
+  },
+  {
+    "question": "How can I start a new student club?",
+    "answer": "Submit a proposal to the student affairs office at studentaffairs@jiit.ac.in with details about the club’s purpose and activities."
+  },
+  {
+    "question": "Where is the student health clinic?",
+    "answer": "The student health clinic is located in Block B, near the Girls Hostel area."
+  },
+  {
+    "question": "What counseling services are offered?",
+    "answer": "Counseling services are available at the student health clinic. Contact counseling@jiit.ac.in to schedule an appointment."
+  },
+  {
+    "question": "How do I access mental health support?",
+    "answer": "Mental health support is available through the counseling center at counseling@jiit.ac.in or by visiting the student health clinic."
+  },
+  {
+    "question": "Are there recreational facilities on campus?",
+    "answer": "Yes, JIIT has a gym, sports fields, and indoor recreational facilities. Check the JIIT website for details."
+  },
+  {
+    "question": "How do I apply for on-campus housing?",
+    "answer": "Apply for on-campus housing through the student portal or contact the hostel office at hostel@jiit.ac.in."
+  },
+  {
+    "question": "What are the meal plan options?",
+    "answer": "Meal plan options are available through the hostel office. Details can be found on the JIIT website under 'Student Life.'"
+  },
+  {
+    "question": "Can I change my dorm room?",
+    "answer": "To change your dorm room, submit a request to the hostel office at hostel@jiit.ac.in."
+  },
+  {
+    "question": "Where are the dining halls located?",
+    "answer": "Dining halls are located in the hostel area and ABB1 ground floor (cafeteria)."
+  },
+  {
+    "question": "How can I find an internship?",
+    "answer": "Contact the career services office at careers@jiit.ac.in or check the JIIT website for internship opportunities."
+  },
+  {
+    "question": "Does the institution offer career counseling?",
+    "answer": "Yes, career counseling is available through the career services office at careers@jiit.ac.in."
+  },
+  {
+    "question": "Are there job fairs on campus?",
+    "answer": "JIIT hosts job fairs annually. Check the JIIT website or contact careers@jiit.ac.in for the schedule."
+  },
+  {
+    "question": "How do I get help with my resume?",
+    "answer": "Get resume help from the career services office at careers@jiit.ac.in or contact the Training and Placement Cell."
+  },
+  {
+    "question": "How do I connect to the campus Wi-Fi?",
+    "answer": "Connect to the campus Wi-Fi using your student ID and password. Instructions are available on the JIIT IT portal."
+  },
+  {
+    "question": "I forgot my student ID password. How do I reset it?",
+    "answer": "Reset your student ID password through the JIIT student portal or contact IT support at itsupport@jiit.ac.in."
+  },
+  {
+    "question": "Where can I get technical support for my laptop?",
+    "answer": "Technical support is available at the IT helpdesk in Block A, Room 103, or via itsupport@jiit.ac.in."
+  },
+  {
+    "question": "How do I access the student portal/LMS?",
+    "answer": "Access the JIIT student portal/LMS at portal.jiit.ac.in using your student ID and password."
+  },
+  {
+    "question": "How do I submit a grade change?",
+    "answer": "Faculty can submit a grade change request through the faculty portal or contact the registrar’s office at registrar@jiit.ac.in."
+  },
+  {
+    "question": "Where can I find faculty resources?",
+    "answer": "Faculty resources are available on the JIIT faculty portal or by contacting academics@jiit.ac.in."
+  },
+  {
+    "question": "How do I request IT support for my office?",
+    "answer": "Request IT support by emailing itsupport@jiit.ac.in or visiting the IT helpdesk in Block A, Room 103."
+  },
+  {
+    "question": "What's the process for ordering supplies?",
+    "answer": "Order supplies by submitting a request to the administrative office at admin@jiit.ac.in."
+  },
+  {
+    "question": "What courses am I registered for next semester?",
+    "answer": "View your registered courses for the next semester in the JIIT student portal under 'Course Registration.'"
+  },
+  {
+    "question": "Do I have any outstanding fees?",
+    "answer": "Check for outstanding fees in the JIIT student portal under 'Accounts' or contact accounts@jiit.ac.in."
+  },
+  {
+    "question": "Can you elaborate on that?",
+    "answer": "Please specify the topic or question you'd like more details on, and I’ll provide further information."
+  },
+  {
+    "question": "What else can you tell me about [topic]?",
+    "answer": "Please specify the topic, and I’ll provide additional details or resources related to it."
+  },
+  {
+    "question": "Is there someone I can talk to for more details?",
+    "answer": "Contact the relevant department (e.g., registrar@jiit.ac.in for academic queries, financialaid@jiit.ac.in for aid) or visit the JIIT website for contact details."
+  },
+  {
+    "question": "Was this helpful?",
+    "answer": "Please provide feedback by selecting 'Yes' or 'No' in the interface or contact studentaffairs@jiit.ac.in."
+  },
+  {
+    "question": "Rate my answer (1-5 stars).",
+    "answer": "Please use the rating feature in the interface to provide a 1-5 star rating."
+  },
+  {
+    "question": "Do you have any other questions?",
+    "answer": "Feel free to ask any additional questions, and I’ll assist you promptly!"
+  },
+  {
+    "question": "I need to speak to someone in person.",
+    "answer": "Visit the relevant office (e.g., registrar in Block A, Room 102) or email to schedule an appointment."
+  },
+  {
+    "question": "Can I chat with a representative?",
+    "answer": "Contact the relevant department via email (e.g., registrar@jiit.ac.in) or visit their office for assistance."
+  },
+  {
+    "question": "How do I schedule an appointment with a staff member?",
+    "answer": "Schedule an appointment by emailing the relevant department (e.g., academics@jiit.ac.in) or through the student portal."
+  }
+]
